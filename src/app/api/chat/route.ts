@@ -1,12 +1,28 @@
 import { NextResponse } from "next/server";
 
-const HF_ACCESS_TOKEN = process.env.HUGGING_FACE_API_KEY; // Add this to your .env.local
+const HF_ACCESS_TOKEN = process.env.HUGGING_FACE_API_KEY;
 const HF_MODEL_NAME = process.env.HUGGING_FACE_MODEL_NAME; // Add this to your .env.local
 const API_URL = `https://api-inference.huggingface.co/models/${HF_MODEL_NAME}`;
 
+export const runtime = "edge"; // Add this for better performance on Vercel
+
 export async function POST(req: Request) {
+  if (!HF_ACCESS_TOKEN) {
+    return NextResponse.json(
+      { error: "Hugging Face API key not configured" },
+      { status: 500 }
+    );
+  }
+
   try {
     const { message } = await req.json();
+
+    if (!message) {
+      return NextResponse.json(
+        { error: "Message is required" },
+        { status: 400 }
+      );
+    }
 
     // Format the prompt for Mixtral
     const prompt = `<s>[INST] ${message} [/INST]`;
@@ -29,7 +45,20 @@ export async function POST(req: Request) {
     });
 
     if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+      const errorData = await response.json().catch(() => ({}));
+      console.error("Hugging Face API error:", errorData);
+
+      if (response.status === 429) {
+        return NextResponse.json(
+          { error: "Rate limit exceeded. Please try again later." },
+          { status: 429 }
+        );
+      }
+
+      return NextResponse.json(
+        { error: "Failed to generate response" },
+        { status: response.status }
+      );
     }
 
     const result = await response.json();
@@ -37,7 +66,7 @@ export async function POST(req: Request) {
   } catch (error) {
     console.error("Error:", error);
     return NextResponse.json(
-      { error: "Failed to generate response" },
+      { error: "Internal server error" },
       { status: 500 }
     );
   }

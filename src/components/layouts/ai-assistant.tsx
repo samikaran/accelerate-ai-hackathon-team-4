@@ -80,11 +80,12 @@ const PigeonAssistant: React.FC = () => {
         body: JSON.stringify({ message: message }),
       });
 
-      if (!response.ok) {
-        throw new Error("Failed to get response");
-      }
-
       const data = await response.json();
+
+      if (!response.ok) {
+        // throw new Error("Failed to get response");
+        throw new Error(data.error || "Failed to get response");
+      }
 
       const aiMessage: Message = {
         content: data.response,
@@ -97,7 +98,9 @@ const PigeonAssistant: React.FC = () => {
       console.error("Error:", error);
       const errorMessage: Message = {
         content:
-          "Oops! My wings got a bit tired. Let me catch my breath and try again! 🕊️",
+          error instanceof Error && error.message.includes("rate limit")
+            ? "I'm getting too many requests right now. Please try again in a moment! 🕊️"
+            : "Oops! My wings got a bit tired. Let me catch my breath and try again! 🕊️",
         type: "assistant",
         timestamp: new Date(),
       };

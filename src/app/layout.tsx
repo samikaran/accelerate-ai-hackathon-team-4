@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: "GrowthLens - AI-Powered Analytics Platform",
     description: "Transform your startup growth with AI-driven insights",
     type: "website",
-    url: "https://growthlens.com",
+    url: "https://growthlens.vercel.app",
     images: [
       {
         url: "/og-image.png",
