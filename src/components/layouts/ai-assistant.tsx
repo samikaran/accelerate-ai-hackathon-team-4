@@ -5,6 +5,7 @@ import { Send, ChevronUp, ChevronDown } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
+import { usePathname } from "next/navigation";
 
 interface Message {
   content: string;
@@ -31,11 +32,23 @@ const PigeonIcon: React.FC<{ className?: string }> = ({ className = "" }) => (
   </svg>
 );
 
-const welcomeMessages = [
-  "Hello! I'm Pigeon, your friendly AI companion. Just like a messenger pigeon, I'm here to deliver insights and help you navigate through your data! 📊",
-  "Need help analyzing trends or understanding metrics? Let me spread my wings and assist you! 🕊️",
-  "Whether it's market analysis, customer feedback, or cost metrics - I'm your reliable data messenger! What would you like to explore?",
-];
+interface WelcomeMessages {
+  management: string[];
+  investor: string[];
+}
+
+const welcomeMessages: WelcomeMessages = {
+  management: [
+    "Hello! I'm Pigeon, your product analytics companion. Need help understanding customer feedback or market analysis or cost metrics? 📊",
+    "Want to dive into your customer data or analyze cost trends? I'm here to help you make data-driven decisions! 🕊️",
+    "Looking for insights about your product performance or user behavior? Let me assist you in uncovering valuable patterns! 📈",
+  ],
+  investor: [
+    "Welcome to the investor dashboard! I can help you analyze financial metrics and growth indicators. How can I assist? 💼",
+    "Need insights about revenue trends, customer acquisition, or financial performance? I'm here to help you make informed decisions! 📊",
+    "Looking to understand market performance or investment metrics? Let me help you dive into the numbers! 📈",
+  ],
+};
 
 const PigeonAssistant: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,11 +56,17 @@ const PigeonAssistant: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
+  const pathname = usePathname();
+  const isInvestorPage = pathname?.includes("/investor");
+
   useEffect(() => {
     // Show random welcome message when opened
     if (isOpen && messages.length === 0) {
+      const pageType = isInvestorPage ? "investor" : "management";
+      const relevantMessages = welcomeMessages[pageType];
       const randomMessage =
-        welcomeMessages[Math.floor(Math.random() * welcomeMessages.length)];
+        relevantMessages[Math.floor(Math.random() * relevantMessages.length)];
+
       setMessages([
         {
           content: randomMessage,
@@ -56,7 +75,7 @@ const PigeonAssistant: React.FC = () => {
         },
       ]);
     }
-  }, [isOpen]);
+  }, [isOpen, messages.length, isInvestorPage]);
 
   const handleSendMessage = async () => {
     if (!message.trim()) return;
