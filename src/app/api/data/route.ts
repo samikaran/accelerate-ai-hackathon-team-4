@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import customerData from "@/app/data/customer_cluster_0_df.json";
+import customerData from "@/app/data/customer_without_clustering_df.json";
+// import customerData from "@/app/data/customer_cluster_0_df.json";
 import featureData from "@/app/data/customer_feature_importance.json";
 import productData from "@/app/data/product_df.json";
 import transactionData from "@/app/data/transaction_df.json";
