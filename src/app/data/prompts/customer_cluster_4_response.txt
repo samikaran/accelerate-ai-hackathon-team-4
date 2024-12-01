@@ -1,0 +1,9 @@
+ Customer Cluster 4 is one of the five distinct customer segments identified in our e-commerce platform, consisting of 742 customers. This cluster is characterized by a slight preference for certain locations, with a higher concentration of customers from Illinois, Indiana, Minnesota, and Washington.
+
+In terms of demographics, the average age of customers in Cluster 4 is approximately 44 years old, with a standard deviation of 5.2 years, indicating a relatively consistent age range within this group.
+
+Customers in this cluster exhibit a moderate total purchase amount, with a mean of $59.76 and a standard deviation of $23.69, suggesting that while their overall spending is not the highest among the clusters, it is still significant. The average purchase amount for this group is relatively low, around $4.28 with a standard deviation of $5.90, which may indicate a trend towards smaller, more frequent purchases.
+
+Cluster 4 customers are also unique in their preferred payment methods, with a strong preference for PayPal, Debit Cards, and Store Pickup as their shipping method of choice. This may suggest a preference for convenience and security in their shopping experience.
+
+In summary, customers in Cluster 4 are mid-career individuals from specific regions who value convenience and security in their shopping experience, with a tendency to make smaller, more frequent purchases. Tailored marketing strategies for this group might include targeted promotions and incentives for PayPal and Debit Card payments, as well as highlighting the convenience and speed of Store Pickup.
