@@ -1,0 +1,50 @@
+[
+  {
+    "Feature": "location",
+    "Importance": "0.5529135466163895"
+  },
+  {
+    "Feature": "preferred_color",
+    "Importance": "0.2900280313808149"
+  },
+  {
+    "Feature": "average_purchase_amount",
+    "Importance": "0.02833801741341937"
+  },
+  {
+    "Feature": "age",
+    "Importance": "0.025857295313456395"
+  },
+  {
+    "Feature": "total_purchase_amount",
+    "Importance": "0.024684948513990963"
+  },
+  {
+    "Feature": "total_purchases",
+    "Importance": "0.02227654041989858"
+  },
+  {
+    "Feature": "average_review_rating",
+    "Importance": "0.021850263878798577"
+  },
+  {
+    "Feature": "preferred_payment_method",
+    "Importance": "0.013065702336448297"
+  },
+  {
+    "Feature": "preferred_shipping",
+    "Importance": "0.012023347543959072"
+  },
+  {
+    "Feature": "preferred_size",
+    "Importance": "0.008962306582824455"
+  },
+  {
+    "Feature": "is_subscriber",
+    "Importance": "0.0"
+  },
+  {
+    "Feature": "used_promo_code",
+    "Importance": "0.0"
+  }
+]

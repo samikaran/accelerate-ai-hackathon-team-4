@@ -1,0 +1,5627 @@
+[
+  {
+    "item_purchased": "Backpack",
+    "color": "Beige",
+    "category": "Accessories",
+    "average_purchase_amount": "63.0",
+    "average_review_rating": "3.2",
+    "has_discount": true,
+    "product_id": 0
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Black",
+    "category": "Accessories",
+    "average_purchase_amount": "65.0",
+    "average_review_rating": "3.8272727272727276",
+    "has_discount": true,
+    "product_id": 1
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Blue",
+    "category": "Accessories",
+    "average_purchase_amount": "68.85714285714286",
+    "average_review_rating": "3.9714285714285715",
+    "has_discount": true,
+    "product_id": 2
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Brown",
+    "category": "Accessories",
+    "average_purchase_amount": "51.0",
+    "average_review_rating": "3.9",
+    "has_discount": true,
+    "product_id": 3
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Charcoal",
+    "category": "Accessories",
+    "average_purchase_amount": "75.33333333333333",
+    "average_review_rating": "4.133333333333333",
+    "has_discount": true,
+    "product_id": 4
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Cyan",
+    "category": "Accessories",
+    "average_purchase_amount": "64.0",
+    "average_review_rating": "3.4714285714285715",
+    "has_discount": true,
+    "product_id": 5
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Gold",
+    "category": "Accessories",
+    "average_purchase_amount": "70.0",
+    "average_review_rating": "3.9857142857142853",
+    "has_discount": true,
+    "product_id": 6
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Gray",
+    "category": "Accessories",
+    "average_purchase_amount": "61.44444444444444",
+    "average_review_rating": "3.577777777777778",
+    "has_discount": true,
+    "product_id": 7
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Green",
+    "category": "Accessories",
+    "average_purchase_amount": "48.375",
+    "average_review_rating": "3.725",
+    "has_discount": true,
+    "product_id": 8
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Indigo",
+    "category": "Accessories",
+    "average_purchase_amount": "52.4",
+    "average_review_rating": "3.38",
+    "has_discount": true,
+    "product_id": 9
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Lavender",
+    "category": "Accessories",
+    "average_purchase_amount": "64.8",
+    "average_review_rating": "3.66",
+    "has_discount": true,
+    "product_id": 10
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Magenta",
+    "category": "Accessories",
+    "average_purchase_amount": "64.0",
+    "average_review_rating": "4.24",
+    "has_discount": true,
+    "product_id": 11
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Maroon",
+    "category": "Accessories",
+    "average_purchase_amount": "55.5",
+    "average_review_rating": "3.725",
+    "has_discount": true,
+    "product_id": 12
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Olive",
+    "category": "Accessories",
+    "average_purchase_amount": "51.54545454545455",
+    "average_review_rating": "3.3818181818181823",
+    "has_discount": true,
+    "product_id": 13
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Orange",
+    "category": "Accessories",
+    "average_purchase_amount": "60.333333333333336",
+    "average_review_rating": "4.016666666666667",
+    "has_discount": true,
+    "product_id": 14
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Peach",
+    "category": "Accessories",
+    "average_purchase_amount": "51.833333333333336",
+    "average_review_rating": "3.8333333333333335",
+    "has_discount": true,
+    "product_id": 15
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Pink",
+    "category": "Accessories",
+    "average_purchase_amount": "64.0",
+    "average_review_rating": "3.925",
+    "has_discount": true,
+    "product_id": 16
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Purple",
+    "category": "Accessories",
+    "average_purchase_amount": "47.333333333333336",
+    "average_review_rating": "4.1000000000000005",
+    "has_discount": true,
+    "product_id": 17
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Red",
+    "category": "Accessories",
+    "average_purchase_amount": "58.42857142857143",
+    "average_review_rating": "3.7285714285714286",
+    "has_discount": true,
+    "product_id": 18
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Silver",
+    "category": "Accessories",
+    "average_purchase_amount": "63.666666666666664",
+    "average_review_rating": "3.4",
+    "has_discount": true,
+    "product_id": 19
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Teal",
+    "category": "Accessories",
+    "average_purchase_amount": "97.0",
+    "average_review_rating": "3.3",
+    "has_discount": true,
+    "product_id": 20
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Turquoise",
+    "category": "Accessories",
+    "average_purchase_amount": "47.5",
+    "average_review_rating": "4.125",
+    "has_discount": true,
+    "product_id": 21
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Violet",
+    "category": "Accessories",
+    "average_purchase_amount": "67.16666666666667",
+    "average_review_rating": "3.6",
+    "has_discount": true,
+    "product_id": 22
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "White",
+    "category": "Accessories",
+    "average_purchase_amount": "60.0",
+    "average_review_rating": "3.875",
+    "has_discount": true,
+    "product_id": 23
+  },
+  {
+    "item_purchased": "Backpack",
+    "color": "Yellow",
+    "category": "Accessories",
+    "average_purchase_amount": "65.33333333333333",
+    "average_review_rating": "4.116666666666666",
+    "has_discount": true,
+    "product_id": 24
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Beige",
+    "category": "Accessories",
+    "average_purchase_amount": "63.0",
+    "average_review_rating": "3.9200000000000004",
+    "has_discount": true,
+    "product_id": 25
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Black",
+    "category": "Accessories",
+    "average_purchase_amount": "42.0",
+    "average_review_rating": "4.433333333333334",
+    "has_discount": true,
+    "product_id": 26
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Blue",
+    "category": "Accessories",
+    "average_purchase_amount": "66.41666666666667",
+    "average_review_rating": "3.8166666666666664",
+    "has_discount": true,
+    "product_id": 27
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Brown",
+    "category": "Accessories",
+    "average_purchase_amount": "62.25",
+    "average_review_rating": "3.6",
+    "has_discount": true,
+    "product_id": 28
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Charcoal",
+    "category": "Accessories",
+    "average_purchase_amount": "47.7",
+    "average_review_rating": "3.8200000000000003",
+    "has_discount": true,
+    "product_id": 29
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Cyan",
+    "category": "Accessories",
+    "average_purchase_amount": "71.0",
+    "average_review_rating": "3.357142857142857",
+    "has_discount": true,
+    "product_id": 30
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Gold",
+    "category": "Accessories",
+    "average_purchase_amount": "68.33333333333333",
+    "average_review_rating": "3.8000000000000003",
+    "has_discount": true,
+    "product_id": 31
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Gray",
+    "category": "Accessories",
+    "average_purchase_amount": "54.42857142857143",
+    "average_review_rating": "3.957142857142857",
+    "has_discount": true,
+    "product_id": 32
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Green",
+    "category": "Accessories",
+    "average_purchase_amount": "59.77777777777778",
+    "average_review_rating": "3.6222222222222222",
+    "has_discount": true,
+    "product_id": 33
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Indigo",
+    "category": "Accessories",
+    "average_purchase_amount": "66.28571428571429",
+    "average_review_rating": "3.857142857142857",
+    "has_discount": true,
+    "product_id": 34
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Lavender",
+    "category": "Accessories",
+    "average_purchase_amount": "54.0",
+    "average_review_rating": "4.025",
+    "has_discount": true,
+    "product_id": 35
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Magenta",
+    "category": "Accessories",
+    "average_purchase_amount": "55.4",
+    "average_review_rating": "3.7",
+    "has_discount": true,
+    "product_id": 36
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Maroon",
+    "category": "Accessories",
+    "average_purchase_amount": "53.2",
+    "average_review_rating": "3.75",
+    "has_discount": true,
+    "product_id": 37
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Olive",
+    "category": "Accessories",
+    "average_purchase_amount": "64.6",
+    "average_review_rating": "3.7399999999999998",
+    "has_discount": true,
+    "product_id": 38
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Orange",
+    "category": "Accessories",
+    "average_purchase_amount": "67.6",
+    "average_review_rating": "3.7600000000000002",
+    "has_discount": true,
+    "product_id": 39
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Peach",
+    "category": "Accessories",
+    "average_purchase_amount": "76.0",
+    "average_review_rating": "3.8833333333333333",
+    "has_discount": true,
+    "product_id": 40
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Pink",
+    "category": "Accessories",
+    "average_purchase_amount": "70.66666666666667",
+    "average_review_rating": "3.75",
+    "has_discount": true,
+    "product_id": 41
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Purple",
+    "category": "Accessories",
+    "average_purchase_amount": "61.4",
+    "average_review_rating": "4.26",
+    "has_discount": true,
+    "product_id": 42
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Red",
+    "category": "Accessories",
+    "average_purchase_amount": "70.0",
+    "average_review_rating": "3.4166666666666665",
+    "has_discount": true,
+    "product_id": 43
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Silver",
+    "category": "Accessories",
+    "average_purchase_amount": "63.888888888888886",
+    "average_review_rating": "3.4444444444444446",
+    "has_discount": true,
+    "product_id": 44
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Teal",
+    "category": "Accessories",
+    "average_purchase_amount": "41.142857142857146",
+    "average_review_rating": "3.3",
+    "has_discount": true,
+    "product_id": 45
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Turquoise",
+    "category": "Accessories",
+    "average_purchase_amount": "43.6",
+    "average_review_rating": "4.42",
+    "has_discount": true,
+    "product_id": 46
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Violet",
+    "category": "Accessories",
+    "average_purchase_amount": "63.5",
+    "average_review_rating": "3.6999999999999997",
+    "has_discount": true,
+    "product_id": 47
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "White",
+    "category": "Accessories",
+    "average_purchase_amount": "23.0",
+    "average_review_rating": "3.4",
+    "has_discount": true,
+    "product_id": 48
+  },
+  {
+    "item_purchased": "Belt",
+    "color": "Yellow",
+    "category": "Accessories",
+    "average_purchase_amount": "53.0",
+    "average_review_rating": "3.6166666666666667",
+    "has_discount": true,
+    "product_id": 49
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Beige",
+    "category": "Clothing",
+    "average_purchase_amount": "65.66666666666667",
+    "average_review_rating": "3.7666666666666666",
+    "has_discount": true,
+    "product_id": 50
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Black",
+    "category": "Clothing",
+    "average_purchase_amount": "74.0",
+    "average_review_rating": "3.8",
+    "has_discount": true,
+    "product_id": 51
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Blue",
+    "category": "Clothing",
+    "average_purchase_amount": "56.4",
+    "average_review_rating": "3.8600000000000003",
+    "has_discount": true,
+    "product_id": 52
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Brown",
+    "category": "Clothing",
+    "average_purchase_amount": "66.375",
+    "average_review_rating": "3.425",
+    "has_discount": true,
+    "product_id": 53
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Charcoal",
+    "category": "Clothing",
+    "average_purchase_amount": "61.111111111111114",
+    "average_review_rating": "3.922222222222222",
+    "has_discount": true,
+    "product_id": 54
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Cyan",
+    "category": "Clothing",
+    "average_purchase_amount": "51.6",
+    "average_review_rating": "3.62",
+    "has_discount": true,
+    "product_id": 55
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Gold",
+    "category": "Clothing",
+    "average_purchase_amount": "76.0",
+    "average_review_rating": "3.25",
+    "has_discount": true,
+    "product_id": 56
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Gray",
+    "category": "Clothing",
+    "average_purchase_amount": "58.125",
+    "average_review_rating": "4.0",
+    "has_discount": true,
+    "product_id": 57
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Green",
+    "category": "Clothing",
+    "average_purchase_amount": "70.0",
+    "average_review_rating": "3.933333333333333",
+    "has_discount": true,
+    "product_id": 58
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Indigo",
+    "category": "Clothing",
+    "average_purchase_amount": "62.6",
+    "average_review_rating": "3.6",
+    "has_discount": true,
+    "product_id": 59
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Lavender",
+    "category": "Clothing",
+    "average_purchase_amount": "39.44444444444444",
+    "average_review_rating": "3.677777777777778",
+    "has_discount": true,
+    "product_id": 60
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Magenta",
+    "category": "Clothing",
+    "average_purchase_amount": "72.66666666666667",
+    "average_review_rating": "3.7777777777777777",
+    "has_discount": true,
+    "product_id": 61
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Maroon",
+    "category": "Clothing",
+    "average_purchase_amount": "64.33333333333333",
+    "average_review_rating": "3.6333333333333333",
+    "has_discount": true,
+    "product_id": 62
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Olive",
+    "category": "Clothing",
+    "average_purchase_amount": "58.666666666666664",
+    "average_review_rating": "3.1666666666666665",
+    "has_discount": true,
+    "product_id": 63
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Orange",
+    "category": "Clothing",
+    "average_purchase_amount": "49.25",
+    "average_review_rating": "4.05",
+    "has_discount": true,
+    "product_id": 64
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Peach",
+    "category": "Clothing",
+    "average_purchase_amount": "43.57142857142857",
+    "average_review_rating": "3.4857142857142853",
+    "has_discount": true,
+    "product_id": 65
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Pink",
+    "category": "Clothing",
+    "average_purchase_amount": "52.125",
+    "average_review_rating": "3.15",
+    "has_discount": true,
+    "product_id": 66
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Purple",
+    "category": "Clothing",
+    "average_purchase_amount": "70.77777777777777",
+    "average_review_rating": "3.388888888888889",
+    "has_discount": true,
+    "product_id": 67
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Red",
+    "category": "Clothing",
+    "average_purchase_amount": "54.0",
+    "average_review_rating": "3.65",
+    "has_discount": true,
+    "product_id": 68
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Silver",
+    "category": "Clothing",
+    "average_purchase_amount": "60.55555555555556",
+    "average_review_rating": "3.6555555555555554",
+    "has_discount": true,
+    "product_id": 69
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Teal",
+    "category": "Clothing",
+    "average_purchase_amount": "79.5",
+    "average_review_rating": "3.9166666666666665",
+    "has_discount": true,
+    "product_id": 70
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Turquoise",
+    "category": "Clothing",
+    "average_purchase_amount": "49.5",
+    "average_review_rating": "3.783333333333333",
+    "has_discount": true,
+    "product_id": 71
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Violet",
+    "category": "Clothing",
+    "average_purchase_amount": "61.583333333333336",
+    "average_review_rating": "3.9000000000000004",
+    "has_discount": true,
+    "product_id": 72
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "White",
+    "category": "Clothing",
+    "average_purchase_amount": "70.0",
+    "average_review_rating": "3.6833333333333336",
+    "has_discount": true,
+    "product_id": 73
+  },
+  {
+    "item_purchased": "Blouse",
+    "color": "Yellow",
+    "category": "Clothing",
+    "average_purchase_amount": "52.2",
+    "average_review_rating": "3.54",
+    "has_discount": true,
+    "product_id": 74
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Beige",
+    "category": "Footwear",
+    "average_purchase_amount": "59.333333333333336",
+    "average_review_rating": "3.1666666666666665",
+    "has_discount": true,
+    "product_id": 75
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Black",
+    "category": "Footwear",
+    "average_purchase_amount": "69.66666666666667",
+    "average_review_rating": "3.733333333333333",
+    "has_discount": true,
+    "product_id": 76
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Blue",
+    "category": "Footwear",
+    "average_purchase_amount": "46.0",
+    "average_review_rating": "3.483333333333333",
+    "has_discount": true,
+    "product_id": 77
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Brown",
+    "category": "Footwear",
+    "average_purchase_amount": "65.28571428571429",
+    "average_review_rating": "3.557142857142857",
+    "has_discount": true,
+    "product_id": 78
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Charcoal",
+    "category": "Footwear",
+    "average_purchase_amount": "63.666666666666664",
+    "average_review_rating": "4.2",
+    "has_discount": true,
+    "product_id": 79
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Cyan",
+    "category": "Footwear",
+    "average_purchase_amount": "64.14285714285714",
+    "average_review_rating": "3.628571428571429",
+    "has_discount": true,
+    "product_id": 80
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Gold",
+    "category": "Footwear",
+    "average_purchase_amount": "74.66666666666667",
+    "average_review_rating": "4.033333333333333",
+    "has_discount": true,
+    "product_id": 81
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Gray",
+    "category": "Footwear",
+    "average_purchase_amount": "43.833333333333336",
+    "average_review_rating": "4.033333333333334",
+    "has_discount": true,
+    "product_id": 82
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Green",
+    "category": "Footwear",
+    "average_purchase_amount": "59.0",
+    "average_review_rating": "3.8833333333333333",
+    "has_discount": true,
+    "product_id": 83
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Indigo",
+    "category": "Footwear",
+    "average_purchase_amount": "55.857142857142854",
+    "average_review_rating": "3.8714285714285714",
+    "has_discount": true,
+    "product_id": 84
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Lavender",
+    "category": "Footwear",
+    "average_purchase_amount": "67.16666666666667",
+    "average_review_rating": "3.8833333333333333",
+    "has_discount": true,
+    "product_id": 85
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Magenta",
+    "category": "Footwear",
+    "average_purchase_amount": "70.85714285714286",
+    "average_review_rating": "3.8857142857142857",
+    "has_discount": true,
+    "product_id": 86
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Maroon",
+    "category": "Footwear",
+    "average_purchase_amount": "63.166666666666664",
+    "average_review_rating": "3.65",
+    "has_discount": true,
+    "product_id": 87
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Olive",
+    "category": "Footwear",
+    "average_purchase_amount": "66.125",
+    "average_review_rating": "3.875",
+    "has_discount": true,
+    "product_id": 88
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Orange",
+    "category": "Footwear",
+    "average_purchase_amount": "64.8",
+    "average_review_rating": "3.78",
+    "has_discount": true,
+    "product_id": 89
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Peach",
+    "category": "Footwear",
+    "average_purchase_amount": "46.333333333333336",
+    "average_review_rating": "3.6666666666666665",
+    "has_discount": true,
+    "product_id": 90
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Pink",
+    "category": "Footwear",
+    "average_purchase_amount": "76.0",
+    "average_review_rating": "4.242857142857143",
+    "has_discount": true,
+    "product_id": 91
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Purple",
+    "category": "Footwear",
+    "average_purchase_amount": "56.666666666666664",
+    "average_review_rating": "4.383333333333334",
+    "has_discount": true,
+    "product_id": 92
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Red",
+    "category": "Footwear",
+    "average_purchase_amount": "93.5",
+    "average_review_rating": "3.3",
+    "has_discount": true,
+    "product_id": 93
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Silver",
+    "category": "Footwear",
+    "average_purchase_amount": "55.833333333333336",
+    "average_review_rating": "3.25",
+    "has_discount": true,
+    "product_id": 94
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Teal",
+    "category": "Footwear",
+    "average_purchase_amount": "60.333333333333336",
+    "average_review_rating": "3.933333333333333",
+    "has_discount": true,
+    "product_id": 95
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Turquoise",
+    "category": "Footwear",
+    "average_purchase_amount": "68.0",
+    "average_review_rating": "4.8",
+    "has_discount": true,
+    "product_id": 96
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Violet",
+    "category": "Footwear",
+    "average_purchase_amount": "64.75",
+    "average_review_rating": "3.716666666666667",
+    "has_discount": true,
+    "product_id": 97
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "White",
+    "category": "Footwear",
+    "average_purchase_amount": "80.0",
+    "average_review_rating": "4.2",
+    "has_discount": true,
+    "product_id": 98
+  },
+  {
+    "item_purchased": "Boots",
+    "color": "Yellow",
+    "category": "Footwear",
+    "average_purchase_amount": "54.7",
+    "average_review_rating": "3.84",
+    "has_discount": true,
+    "product_id": 99
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Beige",
+    "category": "Outerwear",
+    "average_purchase_amount": "75.25",
+    "average_review_rating": "3.5625",
+    "has_discount": true,
+    "product_id": 100
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Black",
+    "category": "Outerwear",
+    "average_purchase_amount": "52.75",
+    "average_review_rating": "3.675",
+    "has_discount": true,
+    "product_id": 101
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Blue",
+    "category": "Outerwear",
+    "average_purchase_amount": "58.5",
+    "average_review_rating": "3.45",
+    "has_discount": true,
+    "product_id": 102
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Brown",
+    "category": "Outerwear",
+    "average_purchase_amount": "56.5",
+    "average_review_rating": "3.566666666666667",
+    "has_discount": true,
+    "product_id": 103
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Charcoal",
+    "category": "Outerwear",
+    "average_purchase_amount": "73.0",
+    "average_review_rating": "4.3",
+    "has_discount": true,
+    "product_id": 104
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Cyan",
+    "category": "Outerwear",
+    "average_purchase_amount": "64.625",
+    "average_review_rating": "3.3375",
+    "has_discount": true,
+    "product_id": 105
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Gold",
+    "category": "Outerwear",
+    "average_purchase_amount": "54.4",
+    "average_review_rating": "3.7399999999999998",
+    "has_discount": true,
+    "product_id": 106
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Gray",
+    "category": "Outerwear",
+    "average_purchase_amount": "59.375",
+    "average_review_rating": "4.1875",
+    "has_discount": true,
+    "product_id": 107
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Green",
+    "category": "Outerwear",
+    "average_purchase_amount": "59.75",
+    "average_review_rating": "3.5875",
+    "has_discount": true,
+    "product_id": 108
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Indigo",
+    "category": "Outerwear",
+    "average_purchase_amount": "51.25",
+    "average_review_rating": "4.15",
+    "has_discount": true,
+    "product_id": 109
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Lavender",
+    "category": "Outerwear",
+    "average_purchase_amount": "52.75",
+    "average_review_rating": "3.85",
+    "has_discount": true,
+    "product_id": 110
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Magenta",
+    "category": "Outerwear",
+    "average_purchase_amount": "49.333333333333336",
+    "average_review_rating": "3.783333333333333",
+    "has_discount": true,
+    "product_id": 111
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Maroon",
+    "category": "Outerwear",
+    "average_purchase_amount": "31.0",
+    "average_review_rating": "2.8",
+    "has_discount": true,
+    "product_id": 112
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Olive",
+    "category": "Outerwear",
+    "average_purchase_amount": "50.6",
+    "average_review_rating": "3.65",
+    "has_discount": true,
+    "product_id": 113
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Orange",
+    "category": "Outerwear",
+    "average_purchase_amount": "49.5",
+    "average_review_rating": "3.95",
+    "has_discount": true,
+    "product_id": 114
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Peach",
+    "category": "Outerwear",
+    "average_purchase_amount": "49.8",
+    "average_review_rating": "3.5799999999999996",
+    "has_discount": true,
+    "product_id": 115
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Pink",
+    "category": "Outerwear",
+    "average_purchase_amount": "57.0",
+    "average_review_rating": "3.6",
+    "has_discount": true,
+    "product_id": 116
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Purple",
+    "category": "Outerwear",
+    "average_purchase_amount": "60.25",
+    "average_review_rating": "3.9",
+    "has_discount": true,
+    "product_id": 117
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Red",
+    "category": "Outerwear",
+    "average_purchase_amount": "71.5",
+    "average_review_rating": "3.45",
+    "has_discount": true,
+    "product_id": 118
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Silver",
+    "category": "Outerwear",
+    "average_purchase_amount": "69.4",
+    "average_review_rating": "3.8",
+    "has_discount": true,
+    "product_id": 119
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Teal",
+    "category": "Outerwear",
+    "average_purchase_amount": "46.857142857142854",
+    "average_review_rating": "3.814285714285714",
+    "has_discount": true,
+    "product_id": 120
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Turquoise",
+    "category": "Outerwear",
+    "average_purchase_amount": "40.2",
+    "average_review_rating": "3.44",
+    "has_discount": true,
+    "product_id": 121
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Violet",
+    "category": "Outerwear",
+    "average_purchase_amount": "70.1",
+    "average_review_rating": "3.59",
+    "has_discount": true,
+    "product_id": 122
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "White",
+    "category": "Outerwear",
+    "average_purchase_amount": "49.77777777777778",
+    "average_review_rating": "4.144444444444444",
+    "has_discount": true,
+    "product_id": 123
+  },
+  {
+    "item_purchased": "Coat",
+    "color": "Yellow",
+    "category": "Outerwear",
+    "average_purchase_amount": "49.285714285714285",
+    "average_review_rating": "3.8428571428571425",
+    "has_discount": true,
+    "product_id": 124
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Beige",
+    "category": "Clothing",
+    "average_purchase_amount": "67.0",
+    "average_review_rating": "3.6333333333333333",
+    "has_discount": true,
+    "product_id": 125
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Black",
+    "category": "Clothing",
+    "average_purchase_amount": "62.875",
+    "average_review_rating": "4.2375",
+    "has_discount": true,
+    "product_id": 126
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Blue",
+    "category": "Clothing",
+    "average_purchase_amount": "63.6",
+    "average_review_rating": "3.8200000000000003",
+    "has_discount": true,
+    "product_id": 127
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Brown",
+    "category": "Clothing",
+    "average_purchase_amount": "50.5",
+    "average_review_rating": "4.025",
+    "has_discount": true,
+    "product_id": 128
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Charcoal",
+    "category": "Clothing",
+    "average_purchase_amount": "70.33333333333333",
+    "average_review_rating": "3.891666666666667",
+    "has_discount": true,
+    "product_id": 129
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Cyan",
+    "category": "Clothing",
+    "average_purchase_amount": "61.18181818181818",
+    "average_review_rating": "2.8545454545454545",
+    "has_discount": true,
+    "product_id": 130
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Gold",
+    "category": "Clothing",
+    "average_purchase_amount": "71.88888888888889",
+    "average_review_rating": "3.611111111111111",
+    "has_discount": true,
+    "product_id": 131
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Gray",
+    "category": "Clothing",
+    "average_purchase_amount": "69.0",
+    "average_review_rating": "4.116666666666666",
+    "has_discount": true,
+    "product_id": 132
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Green",
+    "category": "Clothing",
+    "average_purchase_amount": "74.22222222222223",
+    "average_review_rating": "3.6222222222222222",
+    "has_discount": true,
+    "product_id": 133
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Indigo",
+    "category": "Clothing",
+    "average_purchase_amount": "68.6",
+    "average_review_rating": "3.62",
+    "has_discount": true,
+    "product_id": 134
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Lavender",
+    "category": "Clothing",
+    "average_purchase_amount": "44.0",
+    "average_review_rating": "3.716666666666667",
+    "has_discount": true,
+    "product_id": 135
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Magenta",
+    "category": "Clothing",
+    "average_purchase_amount": "48.0",
+    "average_review_rating": "3.3333333333333335",
+    "has_discount": true,
+    "product_id": 136
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Maroon",
+    "category": "Clothing",
+    "average_purchase_amount": "77.0",
+    "average_review_rating": "3.716666666666667",
+    "has_discount": true,
+    "product_id": 137
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Olive",
+    "category": "Clothing",
+    "average_purchase_amount": "68.25",
+    "average_review_rating": "3.7375000000000003",
+    "has_discount": true,
+    "product_id": 138
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Orange",
+    "category": "Clothing",
+    "average_purchase_amount": "69.125",
+    "average_review_rating": "3.9875000000000003",
+    "has_discount": true,
+    "product_id": 139
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Peach",
+    "category": "Clothing",
+    "average_purchase_amount": "54.833333333333336",
+    "average_review_rating": "3.8166666666666664",
+    "has_discount": true,
+    "product_id": 140
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Pink",
+    "category": "Clothing",
+    "average_purchase_amount": "81.66666666666667",
+    "average_review_rating": "3.1333333333333333",
+    "has_discount": true,
+    "product_id": 141
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Purple",
+    "category": "Clothing",
+    "average_purchase_amount": "57.57142857142857",
+    "average_review_rating": "3.642857142857143",
+    "has_discount": true,
+    "product_id": 142
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Red",
+    "category": "Clothing",
+    "average_purchase_amount": "39.0",
+    "average_review_rating": "4.166666666666667",
+    "has_discount": true,
+    "product_id": 143
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Silver",
+    "category": "Clothing",
+    "average_purchase_amount": "43.833333333333336",
+    "average_review_rating": "3.75",
+    "has_discount": true,
+    "product_id": 144
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Teal",
+    "category": "Clothing",
+    "average_purchase_amount": "61.09090909090909",
+    "average_review_rating": "3.7363636363636363",
+    "has_discount": true,
+    "product_id": 145
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Turquoise",
+    "category": "Clothing",
+    "average_purchase_amount": "63.25",
+    "average_review_rating": "4.325",
+    "has_discount": true,
+    "product_id": 146
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Violet",
+    "category": "Clothing",
+    "average_purchase_amount": "49.75",
+    "average_review_rating": "3.75",
+    "has_discount": true,
+    "product_id": 147
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "White",
+    "category": "Clothing",
+    "average_purchase_amount": "51.0",
+    "average_review_rating": "3.84",
+    "has_discount": true,
+    "product_id": 148
+  },
+  {
+    "item_purchased": "Dress",
+    "color": "Yellow",
+    "category": "Clothing",
+    "average_purchase_amount": "60.5",
+    "average_review_rating": "4.0125",
+    "has_discount": true,
+    "product_id": 149
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Beige",
+    "category": "Accessories",
+    "average_purchase_amount": "77.8",
+    "average_review_rating": "3.5799999999999996",
+    "has_discount": true,
+    "product_id": 150
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Black",
+    "category": "Accessories",
+    "average_purchase_amount": "58.5",
+    "average_review_rating": "2.95",
+    "has_discount": true,
+    "product_id": 151
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Blue",
+    "category": "Accessories",
+    "average_purchase_amount": "58.0",
+    "average_review_rating": "3.8000000000000003",
+    "has_discount": true,
+    "product_id": 152
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Brown",
+    "category": "Accessories",
+    "average_purchase_amount": "41.5",
+    "average_review_rating": "4.7",
+    "has_discount": true,
+    "product_id": 153
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Charcoal",
+    "category": "Accessories",
+    "average_purchase_amount": "51.0",
+    "average_review_rating": "3.742857142857143",
+    "has_discount": true,
+    "product_id": 154
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Cyan",
+    "category": "Accessories",
+    "average_purchase_amount": "65.7",
+    "average_review_rating": "4.15",
+    "has_discount": true,
+    "product_id": 155
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Gold",
+    "category": "Accessories",
+    "average_purchase_amount": "75.16666666666667",
+    "average_review_rating": "3.4",
+    "has_discount": true,
+    "product_id": 156
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Gray",
+    "category": "Accessories",
+    "average_purchase_amount": "81.2",
+    "average_review_rating": "3.88",
+    "has_discount": true,
+    "product_id": 157
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Green",
+    "category": "Accessories",
+    "average_purchase_amount": "68.57142857142857",
+    "average_review_rating": "3.542857142857143",
+    "has_discount": true,
+    "product_id": 158
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Indigo",
+    "category": "Accessories",
+    "average_purchase_amount": "62.166666666666664",
+    "average_review_rating": "4.05",
+    "has_discount": true,
+    "product_id": 159
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Lavender",
+    "category": "Accessories",
+    "average_purchase_amount": "74.0",
+    "average_review_rating": "2.8",
+    "has_discount": true,
+    "product_id": 160
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Magenta",
+    "category": "Accessories",
+    "average_purchase_amount": "65.0",
+    "average_review_rating": "4.022222222222222",
+    "has_discount": true,
+    "product_id": 161
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Maroon",
+    "category": "Accessories",
+    "average_purchase_amount": "39.0",
+    "average_review_rating": "4.166666666666667",
+    "has_discount": true,
+    "product_id": 162
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Olive",
+    "category": "Accessories",
+    "average_purchase_amount": "59.0",
+    "average_review_rating": "4.25",
+    "has_discount": true,
+    "product_id": 163
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Orange",
+    "category": "Accessories",
+    "average_purchase_amount": "38.8",
+    "average_review_rating": "3.7",
+    "has_discount": true,
+    "product_id": 164
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Peach",
+    "category": "Accessories",
+    "average_purchase_amount": "56.375",
+    "average_review_rating": "4.1625",
+    "has_discount": true,
+    "product_id": 165
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Pink",
+    "category": "Accessories",
+    "average_purchase_amount": "63.0",
+    "average_review_rating": "3.8",
+    "has_discount": true,
+    "product_id": 166
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Purple",
+    "category": "Accessories",
+    "average_purchase_amount": "59.75",
+    "average_review_rating": "3.75",
+    "has_discount": true,
+    "product_id": 167
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Red",
+    "category": "Accessories",
+    "average_purchase_amount": "59.333333333333336",
+    "average_review_rating": "4.016666666666667",
+    "has_discount": true,
+    "product_id": 168
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Silver",
+    "category": "Accessories",
+    "average_purchase_amount": "54.44444444444444",
+    "average_review_rating": "3.744444444444445",
+    "has_discount": true,
+    "product_id": 169
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Teal",
+    "category": "Accessories",
+    "average_purchase_amount": "77.4",
+    "average_review_rating": "4.16",
+    "has_discount": true,
+    "product_id": 170
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Turquoise",
+    "category": "Accessories",
+    "average_purchase_amount": "53.0",
+    "average_review_rating": "3.87",
+    "has_discount": true,
+    "product_id": 171
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Violet",
+    "category": "Accessories",
+    "average_purchase_amount": "61.5",
+    "average_review_rating": "3.7249999999999996",
+    "has_discount": true,
+    "product_id": 172
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "White",
+    "category": "Accessories",
+    "average_purchase_amount": "59.333333333333336",
+    "average_review_rating": "4.733333333333333",
+    "has_discount": true,
+    "product_id": 173
+  },
+  {
+    "item_purchased": "Gloves",
+    "color": "Yellow",
+    "category": "Accessories",
+    "average_purchase_amount": "47.2",
+    "average_review_rating": "3.84",
+    "has_discount": true,
+    "product_id": 174
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Beige",
+    "category": "Accessories",
+    "average_purchase_amount": "67.875",
+    "average_review_rating": "3.85",
+    "has_discount": true,
+    "product_id": 175
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Black",
+    "category": "Accessories",
+    "average_purchase_amount": "55.333333333333336",
+    "average_review_rating": "4.133333333333334",
+    "has_discount": true,
+    "product_id": 176
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Blue",
+    "category": "Accessories",
+    "average_purchase_amount": "52.42857142857143",
+    "average_review_rating": "3.585714285714286",
+    "has_discount": true,
+    "product_id": 177
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Brown",
+    "category": "Accessories",
+    "average_purchase_amount": "68.42857142857143",
+    "average_review_rating": "3.8000000000000003",
+    "has_discount": true,
+    "product_id": 178
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Charcoal",
+    "category": "Accessories",
+    "average_purchase_amount": "51.166666666666664",
+    "average_review_rating": "3.5500000000000003",
+    "has_discount": true,
+    "product_id": 179
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Cyan",
+    "category": "Accessories",
+    "average_purchase_amount": "55.42857142857143",
+    "average_review_rating": "3.642857142857143",
+    "has_discount": true,
+    "product_id": 180
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Gold",
+    "category": "Accessories",
+    "average_purchase_amount": "52.0",
+    "average_review_rating": "3.4499999999999997",
+    "has_discount": true,
+    "product_id": 181
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Gray",
+    "category": "Accessories",
+    "average_purchase_amount": "60.2",
+    "average_review_rating": "4.180000000000001",
+    "has_discount": true,
+    "product_id": 182
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Green",
+    "category": "Accessories",
+    "average_purchase_amount": "57.333333333333336",
+    "average_review_rating": "3.533333333333333",
+    "has_discount": true,
+    "product_id": 183
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Indigo",
+    "category": "Accessories",
+    "average_purchase_amount": "51.333333333333336",
+    "average_review_rating": "2.966666666666667",
+    "has_discount": true,
+    "product_id": 184
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Lavender",
+    "category": "Accessories",
+    "average_purchase_amount": "56.333333333333336",
+    "average_review_rating": "4.216666666666667",
+    "has_discount": true,
+    "product_id": 185
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Magenta",
+    "category": "Accessories",
+    "average_purchase_amount": "49.666666666666664",
+    "average_review_rating": "4.016666666666667",
+    "has_discount": true,
+    "product_id": 186
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Maroon",
+    "category": "Accessories",
+    "average_purchase_amount": "36.333333333333336",
+    "average_review_rating": "3.6999999999999997",
+    "has_discount": true,
+    "product_id": 187
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Olive",
+    "category": "Accessories",
+    "average_purchase_amount": "52.4",
+    "average_review_rating": "3.9400000000000004",
+    "has_discount": true,
+    "product_id": 188
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Orange",
+    "category": "Accessories",
+    "average_purchase_amount": "75.66666666666667",
+    "average_review_rating": "3.8000000000000003",
+    "has_discount": true,
+    "product_id": 189
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Peach",
+    "category": "Accessories",
+    "average_purchase_amount": "56.75",
+    "average_review_rating": "4.175",
+    "has_discount": true,
+    "product_id": 190
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Pink",
+    "category": "Accessories",
+    "average_purchase_amount": "47.0",
+    "average_review_rating": "4.25",
+    "has_discount": true,
+    "product_id": 191
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Purple",
+    "category": "Accessories",
+    "average_purchase_amount": "57.142857142857146",
+    "average_review_rating": "3.6714285714285713",
+    "has_discount": true,
+    "product_id": 192
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Red",
+    "category": "Accessories",
+    "average_purchase_amount": "60.714285714285715",
+    "average_review_rating": "3.2857142857142856",
+    "has_discount": true,
+    "product_id": 193
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Silver",
+    "category": "Accessories",
+    "average_purchase_amount": "59.0",
+    "average_review_rating": "3.925",
+    "has_discount": true,
+    "product_id": 194
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Teal",
+    "category": "Accessories",
+    "average_purchase_amount": "61.666666666666664",
+    "average_review_rating": "3.8333333333333335",
+    "has_discount": true,
+    "product_id": 195
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Turquoise",
+    "category": "Accessories",
+    "average_purchase_amount": "75.125",
+    "average_review_rating": "3.7",
+    "has_discount": true,
+    "product_id": 196
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Violet",
+    "category": "Accessories",
+    "average_purchase_amount": "49.0",
+    "average_review_rating": "3.8000000000000003",
+    "has_discount": true,
+    "product_id": 197
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "White",
+    "category": "Accessories",
+    "average_purchase_amount": "52.5",
+    "average_review_rating": "4.0",
+    "has_discount": true,
+    "product_id": 198
+  },
+  {
+    "item_purchased": "Handbag",
+    "color": "Yellow",
+    "category": "Accessories",
+    "average_purchase_amount": "58.36363636363637",
+    "average_review_rating": "3.6363636363636362",
+    "has_discount": true,
+    "product_id": 199
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Beige",
+    "category": "Accessories",
+    "average_purchase_amount": "49.125",
+    "average_review_rating": "3.4375",
+    "has_discount": true,
+    "product_id": 200
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Black",
+    "category": "Accessories",
+    "average_purchase_amount": "40.25",
+    "average_review_rating": "4.275",
+    "has_discount": true,
+    "product_id": 201
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Blue",
+    "category": "Accessories",
+    "average_purchase_amount": "55.5",
+    "average_review_rating": "4.316666666666666",
+    "has_discount": true,
+    "product_id": 202
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Brown",
+    "category": "Accessories",
+    "average_purchase_amount": "57.0",
+    "average_review_rating": "4.1",
+    "has_discount": true,
+    "product_id": 203
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Charcoal",
+    "category": "Accessories",
+    "average_purchase_amount": "60.42857142857143",
+    "average_review_rating": "3.914285714285714",
+    "has_discount": true,
+    "product_id": 204
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Cyan",
+    "category": "Accessories",
+    "average_purchase_amount": "79.5",
+    "average_review_rating": "3.325",
+    "has_discount": true,
+    "product_id": 205
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Gold",
+    "category": "Accessories",
+    "average_purchase_amount": "68.0",
+    "average_review_rating": "3.6",
+    "has_discount": true,
+    "product_id": 206
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Gray",
+    "category": "Accessories",
+    "average_purchase_amount": "89.25",
+    "average_review_rating": "4.0",
+    "has_discount": true,
+    "product_id": 207
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Green",
+    "category": "Accessories",
+    "average_purchase_amount": "66.33333333333333",
+    "average_review_rating": "3.633333333333333",
+    "has_discount": true,
+    "product_id": 208
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Indigo",
+    "category": "Accessories",
+    "average_purchase_amount": "59.833333333333336",
+    "average_review_rating": "3.4333333333333336",
+    "has_discount": true,
+    "product_id": 209
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Lavender",
+    "category": "Accessories",
+    "average_purchase_amount": "62.75",
+    "average_review_rating": "4.3",
+    "has_discount": true,
+    "product_id": 210
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Magenta",
+    "category": "Accessories",
+    "average_purchase_amount": "44.333333333333336",
+    "average_review_rating": "3.922222222222222",
+    "has_discount": true,
+    "product_id": 211
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Maroon",
+    "category": "Accessories",
+    "average_purchase_amount": "55.833333333333336",
+    "average_review_rating": "3.3666666666666667",
+    "has_discount": true,
+    "product_id": 212
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Olive",
+    "category": "Accessories",
+    "average_purchase_amount": "70.66666666666667",
+    "average_review_rating": "3.716666666666667",
+    "has_discount": true,
+    "product_id": 213
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Orange",
+    "category": "Accessories",
+    "average_purchase_amount": "76.25",
+    "average_review_rating": "4.125",
+    "has_discount": true,
+    "product_id": 214
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Peach",
+    "category": "Accessories",
+    "average_purchase_amount": "65.1",
+    "average_review_rating": "3.79",
+    "has_discount": true,
+    "product_id": 215
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Pink",
+    "category": "Accessories",
+    "average_purchase_amount": "58.6",
+    "average_review_rating": "3.66",
+    "has_discount": true,
+    "product_id": 216
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Purple",
+    "category": "Accessories",
+    "average_purchase_amount": "73.14285714285714",
+    "average_review_rating": "3.685714285714286",
+    "has_discount": true,
+    "product_id": 217
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Red",
+    "category": "Accessories",
+    "average_purchase_amount": "58.57142857142857",
+    "average_review_rating": "3.585714285714286",
+    "has_discount": true,
+    "product_id": 218
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Silver",
+    "category": "Accessories",
+    "average_purchase_amount": "56.666666666666664",
+    "average_review_rating": "3.85",
+    "has_discount": true,
+    "product_id": 219
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Teal",
+    "category": "Accessories",
+    "average_purchase_amount": "63.81818181818182",
+    "average_review_rating": "3.909090909090909",
+    "has_discount": true,
+    "product_id": 220
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Turquoise",
+    "category": "Accessories",
+    "average_purchase_amount": "60.333333333333336",
+    "average_review_rating": "3.783333333333333",
+    "has_discount": true,
+    "product_id": 221
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Violet",
+    "category": "Accessories",
+    "average_purchase_amount": "31.0",
+    "average_review_rating": "3.375",
+    "has_discount": true,
+    "product_id": 222
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "White",
+    "category": "Accessories",
+    "average_purchase_amount": "80.0",
+    "average_review_rating": "4.18",
+    "has_discount": true,
+    "product_id": 223
+  },
+  {
+    "item_purchased": "Hat",
+    "color": "Yellow",
+    "category": "Accessories",
+    "average_purchase_amount": "59.857142857142854",
+    "average_review_rating": "3.8000000000000003",
+    "has_discount": true,
+    "product_id": 224
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Beige",
+    "category": "Clothing",
+    "average_purchase_amount": "64.2",
+    "average_review_rating": "3.3600000000000003",
+    "has_discount": true,
+    "product_id": 225
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Black",
+    "category": "Clothing",
+    "average_purchase_amount": "66.8",
+    "average_review_rating": "3.8600000000000003",
+    "has_discount": true,
+    "product_id": 226
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Blue",
+    "category": "Clothing",
+    "average_purchase_amount": "43.333333333333336",
+    "average_review_rating": "3.8333333333333335",
+    "has_discount": true,
+    "product_id": 227
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Brown",
+    "category": "Clothing",
+    "average_purchase_amount": "54.375",
+    "average_review_rating": "3.6875",
+    "has_discount": true,
+    "product_id": 228
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Charcoal",
+    "category": "Clothing",
+    "average_purchase_amount": "63.5",
+    "average_review_rating": "3.8625",
+    "has_discount": true,
+    "product_id": 229
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Cyan",
+    "category": "Clothing",
+    "average_purchase_amount": "68.33333333333333",
+    "average_review_rating": "3.3833333333333333",
+    "has_discount": true,
+    "product_id": 230
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Gold",
+    "category": "Clothing",
+    "average_purchase_amount": "59.125",
+    "average_review_rating": "3.3625",
+    "has_discount": true,
+    "product_id": 231
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Gray",
+    "category": "Clothing",
+    "average_purchase_amount": "55.5",
+    "average_review_rating": "4.1",
+    "has_discount": true,
+    "product_id": 232
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Green",
+    "category": "Clothing",
+    "average_purchase_amount": "72.81818181818181",
+    "average_review_rating": "4.327272727272727",
+    "has_discount": true,
+    "product_id": 233
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Indigo",
+    "category": "Clothing",
+    "average_purchase_amount": "44.0",
+    "average_review_rating": "3.4200000000000004",
+    "has_discount": true,
+    "product_id": 234
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Lavender",
+    "category": "Clothing",
+    "average_purchase_amount": "63.0",
+    "average_review_rating": "3.1500000000000004",
+    "has_discount": true,
+    "product_id": 235
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Magenta",
+    "category": "Clothing",
+    "average_purchase_amount": "48.833333333333336",
+    "average_review_rating": "3.716666666666667",
+    "has_discount": true,
+    "product_id": 236
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Maroon",
+    "category": "Clothing",
+    "average_purchase_amount": "51.0",
+    "average_review_rating": "3.78",
+    "has_discount": true,
+    "product_id": 237
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Olive",
+    "category": "Clothing",
+    "average_purchase_amount": "57.857142857142854",
+    "average_review_rating": "3.4285714285714284",
+    "has_discount": true,
+    "product_id": 238
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Orange",
+    "category": "Clothing",
+    "average_purchase_amount": "69.66666666666667",
+    "average_review_rating": "3.6999999999999997",
+    "has_discount": true,
+    "product_id": 239
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Peach",
+    "category": "Clothing",
+    "average_purchase_amount": "69.0",
+    "average_review_rating": "3.5",
+    "has_discount": true,
+    "product_id": 240
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Pink",
+    "category": "Clothing",
+    "average_purchase_amount": "53.23076923076923",
+    "average_review_rating": "3.723076923076923",
+    "has_discount": true,
+    "product_id": 241
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Purple",
+    "category": "Clothing",
+    "average_purchase_amount": "48.0",
+    "average_review_rating": "3.4428571428571426",
+    "has_discount": true,
+    "product_id": 242
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Red",
+    "category": "Clothing",
+    "average_purchase_amount": "50.8",
+    "average_review_rating": "4.5600000000000005",
+    "has_discount": true,
+    "product_id": 243
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Silver",
+    "category": "Clothing",
+    "average_purchase_amount": "45.888888888888886",
+    "average_review_rating": "3.6666666666666665",
+    "has_discount": true,
+    "product_id": 244
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Teal",
+    "category": "Clothing",
+    "average_purchase_amount": "73.25",
+    "average_review_rating": "3.625",
+    "has_discount": true,
+    "product_id": 245
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Turquoise",
+    "category": "Clothing",
+    "average_purchase_amount": "60.5",
+    "average_review_rating": "3.675",
+    "has_discount": true,
+    "product_id": 246
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Violet",
+    "category": "Clothing",
+    "average_purchase_amount": "69.75",
+    "average_review_rating": "3.85",
+    "has_discount": true,
+    "product_id": 247
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "White",
+    "category": "Clothing",
+    "average_purchase_amount": "59.25",
+    "average_review_rating": "3.7375",
+    "has_discount": true,
+    "product_id": 248
+  },
+  {
+    "item_purchased": "Hoodie",
+    "color": "Yellow",
+    "category": "Clothing",
+    "average_purchase_amount": "39.25",
+    "average_review_rating": "3.6999999999999997",
+    "has_discount": true,
+    "product_id": 249
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Beige",
+    "category": "Outerwear",
+    "average_purchase_amount": "53.5",
+    "average_review_rating": "3.0833333333333335",
+    "has_discount": true,
+    "product_id": 250
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Black",
+    "category": "Outerwear",
+    "average_purchase_amount": "40.5",
+    "average_review_rating": "4.65",
+    "has_discount": true,
+    "product_id": 251
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Blue",
+    "category": "Outerwear",
+    "average_purchase_amount": "53.45454545454545",
+    "average_review_rating": "3.6636363636363636",
+    "has_discount": true,
+    "product_id": 252
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Brown",
+    "category": "Outerwear",
+    "average_purchase_amount": "58.833333333333336",
+    "average_review_rating": "4.1000000000000005",
+    "has_discount": true,
+    "product_id": 253
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Charcoal",
+    "category": "Outerwear",
+    "average_purchase_amount": "66.4",
+    "average_review_rating": "4.12",
+    "has_discount": true,
+    "product_id": 254
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Cyan",
+    "category": "Outerwear",
+    "average_purchase_amount": "69.5",
+    "average_review_rating": "3.6374999999999997",
+    "has_discount": true,
+    "product_id": 255
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Gold",
+    "category": "Outerwear",
+    "average_purchase_amount": "56.666666666666664",
+    "average_review_rating": "3.216666666666667",
+    "has_discount": true,
+    "product_id": 256
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Gray",
+    "category": "Outerwear",
+    "average_purchase_amount": "70.57142857142857",
+    "average_review_rating": "4.057142857142857",
+    "has_discount": true,
+    "product_id": 257
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Green",
+    "category": "Outerwear",
+    "average_purchase_amount": "72.66666666666667",
+    "average_review_rating": "4.0",
+    "has_discount": true,
+    "product_id": 258
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Indigo",
+    "category": "Outerwear",
+    "average_purchase_amount": "32.285714285714285",
+    "average_review_rating": "3.7714285714285714",
+    "has_discount": true,
+    "product_id": 259
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Lavender",
+    "category": "Outerwear",
+    "average_purchase_amount": "58.625",
+    "average_review_rating": "3.5375",
+    "has_discount": true,
+    "product_id": 260
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Magenta",
+    "category": "Outerwear",
+    "average_purchase_amount": "54.142857142857146",
+    "average_review_rating": "4.1571428571428575",
+    "has_discount": true,
+    "product_id": 261
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Maroon",
+    "category": "Outerwear",
+    "average_purchase_amount": "55.57142857142857",
+    "average_review_rating": "3.8857142857142857",
+    "has_discount": true,
+    "product_id": 262
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Olive",
+    "category": "Outerwear",
+    "average_purchase_amount": "57.55555555555556",
+    "average_review_rating": "3.8333333333333335",
+    "has_discount": true,
+    "product_id": 263
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Orange",
+    "category": "Outerwear",
+    "average_purchase_amount": "52.166666666666664",
+    "average_review_rating": "3.4499999999999997",
+    "has_discount": true,
+    "product_id": 264
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Peach",
+    "category": "Outerwear",
+    "average_purchase_amount": "50.333333333333336",
+    "average_review_rating": "3.533333333333333",
+    "has_discount": true,
+    "product_id": 265
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Pink",
+    "category": "Outerwear",
+    "average_purchase_amount": "46.75",
+    "average_review_rating": "4.15",
+    "has_discount": true,
+    "product_id": 266
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Purple",
+    "category": "Outerwear",
+    "average_purchase_amount": "54.625",
+    "average_review_rating": "3.8375",
+    "has_discount": true,
+    "product_id": 267
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Red",
+    "category": "Outerwear",
+    "average_purchase_amount": "51.333333333333336",
+    "average_review_rating": "3.3333333333333335",
+    "has_discount": true,
+    "product_id": 268
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Silver",
+    "category": "Outerwear",
+    "average_purchase_amount": "53.75",
+    "average_review_rating": "4.375",
+    "has_discount": true,
+    "product_id": 269
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Teal",
+    "category": "Outerwear",
+    "average_purchase_amount": "50.142857142857146",
+    "average_review_rating": "3.557142857142857",
+    "has_discount": true,
+    "product_id": 270
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Turquoise",
+    "category": "Outerwear",
+    "average_purchase_amount": "67.0",
+    "average_review_rating": "3.8625000000000003",
+    "has_discount": true,
+    "product_id": 271
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Violet",
+    "category": "Outerwear",
+    "average_purchase_amount": "58.5",
+    "average_review_rating": "3.0666666666666664",
+    "has_discount": true,
+    "product_id": 272
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "White",
+    "category": "Outerwear",
+    "average_purchase_amount": "61.166666666666664",
+    "average_review_rating": "3.716666666666667",
+    "has_discount": true,
+    "product_id": 273
+  },
+  {
+    "item_purchased": "Jacket",
+    "color": "Yellow",
+    "category": "Outerwear",
+    "average_purchase_amount": "60.666666666666664",
+    "average_review_rating": "4.1000000000000005",
+    "has_discount": true,
+    "product_id": 274
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Beige",
+    "category": "Clothing",
+    "average_purchase_amount": "71.0",
+    "average_review_rating": "3.575",
+    "has_discount": true,
+    "product_id": 275
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Black",
+    "category": "Clothing",
+    "average_purchase_amount": "73.5",
+    "average_review_rating": "3.8499999999999996",
+    "has_discount": true,
+    "product_id": 276
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Blue",
+    "category": "Clothing",
+    "average_purchase_amount": "49.0",
+    "average_review_rating": "3.2399999999999998",
+    "has_discount": true,
+    "product_id": 277
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Brown",
+    "category": "Clothing",
+    "average_purchase_amount": "58.4",
+    "average_review_rating": "3.3600000000000003",
+    "has_discount": true,
+    "product_id": 278
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Charcoal",
+    "category": "Clothing",
+    "average_purchase_amount": "65.6",
+    "average_review_rating": "3.62",
+    "has_discount": true,
+    "product_id": 279
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Cyan",
+    "category": "Clothing",
+    "average_purchase_amount": "32.5",
+    "average_review_rating": "3.0999999999999996",
+    "has_discount": true,
+    "product_id": 280
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Gold",
+    "category": "Clothing",
+    "average_purchase_amount": "49.666666666666664",
+    "average_review_rating": "3.3000000000000003",
+    "has_discount": true,
+    "product_id": 281
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Gray",
+    "category": "Clothing",
+    "average_purchase_amount": "38.666666666666664",
+    "average_review_rating": "4.3999999999999995",
+    "has_discount": true,
+    "product_id": 282
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Green",
+    "category": "Clothing",
+    "average_purchase_amount": "67.6",
+    "average_review_rating": "3.3600000000000003",
+    "has_discount": true,
+    "product_id": 283
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Indigo",
+    "category": "Clothing",
+    "average_purchase_amount": "60.2",
+    "average_review_rating": "4.04",
+    "has_discount": true,
+    "product_id": 284
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Lavender",
+    "category": "Clothing",
+    "average_purchase_amount": "67.8",
+    "average_review_rating": "3.54",
+    "has_discount": true,
+    "product_id": 285
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Magenta",
+    "category": "Clothing",
+    "average_purchase_amount": "55.857142857142854",
+    "average_review_rating": "3.9857142857142853",
+    "has_discount": true,
+    "product_id": 286
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Maroon",
+    "category": "Clothing",
+    "average_purchase_amount": "73.2",
+    "average_review_rating": "4.26",
+    "has_discount": true,
+    "product_id": 287
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Olive",
+    "category": "Clothing",
+    "average_purchase_amount": "63.75",
+    "average_review_rating": "3.525",
+    "has_discount": true,
+    "product_id": 288
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Orange",
+    "category": "Clothing",
+    "average_purchase_amount": "66.16666666666667",
+    "average_review_rating": "3.15",
+    "has_discount": true,
+    "product_id": 289
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Peach",
+    "category": "Clothing",
+    "average_purchase_amount": "78.0",
+    "average_review_rating": "3.733333333333333",
+    "has_discount": true,
+    "product_id": 290
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Pink",
+    "category": "Clothing",
+    "average_purchase_amount": "63.0",
+    "average_review_rating": "3.3666666666666667",
+    "has_discount": true,
+    "product_id": 291
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Purple",
+    "category": "Clothing",
+    "average_purchase_amount": "58.25",
+    "average_review_rating": "3.875",
+    "has_discount": true,
+    "product_id": 292
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Red",
+    "category": "Clothing",
+    "average_purchase_amount": "61.25",
+    "average_review_rating": "3.8",
+    "has_discount": true,
+    "product_id": 293
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Silver",
+    "category": "Clothing",
+    "average_purchase_amount": "56.888888888888886",
+    "average_review_rating": "3.6222222222222222",
+    "has_discount": true,
+    "product_id": 294
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Teal",
+    "category": "Clothing",
+    "average_purchase_amount": "57.7",
+    "average_review_rating": "3.6399999999999997",
+    "has_discount": true,
+    "product_id": 295
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Turquoise",
+    "category": "Clothing",
+    "average_purchase_amount": "54.166666666666664",
+    "average_review_rating": "4.133333333333334",
+    "has_discount": true,
+    "product_id": 296
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Violet",
+    "category": "Clothing",
+    "average_purchase_amount": "53.285714285714285",
+    "average_review_rating": "3.642857142857143",
+    "has_discount": true,
+    "product_id": 297
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "White",
+    "category": "Clothing",
+    "average_purchase_amount": "67.33333333333333",
+    "average_review_rating": "3.266666666666667",
+    "has_discount": true,
+    "product_id": 298
+  },
+  {
+    "item_purchased": "Jeans",
+    "color": "Yellow",
+    "category": "Clothing",
+    "average_purchase_amount": "76.0",
+    "average_review_rating": "3.6500000000000004",
+    "has_discount": true,
+    "product_id": 299
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Beige",
+    "category": "Accessories",
+    "average_purchase_amount": "40.75",
+    "average_review_rating": "4.300000000000001",
+    "has_discount": true,
+    "product_id": 300
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Black",
+    "category": "Accessories",
+    "average_purchase_amount": "50.42857142857143",
+    "average_review_rating": "4.085714285714286",
+    "has_discount": true,
+    "product_id": 301
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Blue",
+    "category": "Accessories",
+    "average_purchase_amount": "55.0",
+    "average_review_rating": "3.94",
+    "has_discount": true,
+    "product_id": 302
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Brown",
+    "category": "Accessories",
+    "average_purchase_amount": "50.5",
+    "average_review_rating": "3.6",
+    "has_discount": true,
+    "product_id": 303
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Charcoal",
+    "category": "Accessories",
+    "average_purchase_amount": "36.25",
+    "average_review_rating": "3.7",
+    "has_discount": true,
+    "product_id": 304
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Cyan",
+    "category": "Accessories",
+    "average_purchase_amount": "54.4",
+    "average_review_rating": "3.5599999999999996",
+    "has_discount": true,
+    "product_id": 305
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Gold",
+    "category": "Accessories",
+    "average_purchase_amount": "85.0",
+    "average_review_rating": "3.775",
+    "has_discount": true,
+    "product_id": 306
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Gray",
+    "category": "Accessories",
+    "average_purchase_amount": "67.35714285714286",
+    "average_review_rating": "3.7357142857142853",
+    "has_discount": true,
+    "product_id": 307
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Green",
+    "category": "Accessories",
+    "average_purchase_amount": "62.0",
+    "average_review_rating": "3.575",
+    "has_discount": true,
+    "product_id": 308
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Indigo",
+    "category": "Accessories",
+    "average_purchase_amount": "58.69230769230769",
+    "average_review_rating": "3.446153846153846",
+    "has_discount": true,
+    "product_id": 309
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Lavender",
+    "category": "Accessories",
+    "average_purchase_amount": "59.285714285714285",
+    "average_review_rating": "3.814285714285714",
+    "has_discount": true,
+    "product_id": 310
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Magenta",
+    "category": "Accessories",
+    "average_purchase_amount": "49.0",
+    "average_review_rating": "3.8",
+    "has_discount": true,
+    "product_id": 311
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Maroon",
+    "category": "Accessories",
+    "average_purchase_amount": "36.5",
+    "average_review_rating": "4.15",
+    "has_discount": true,
+    "product_id": 312
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Olive",
+    "category": "Accessories",
+    "average_purchase_amount": "60.888888888888886",
+    "average_review_rating": "3.2333333333333334",
+    "has_discount": true,
+    "product_id": 313
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Orange",
+    "category": "Accessories",
+    "average_purchase_amount": "67.0",
+    "average_review_rating": "3.6399999999999997",
+    "has_discount": true,
+    "product_id": 314
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Peach",
+    "category": "Accessories",
+    "average_purchase_amount": "61.18181818181818",
+    "average_review_rating": "3.6090909090909093",
+    "has_discount": true,
+    "product_id": 315
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Pink",
+    "category": "Accessories",
+    "average_purchase_amount": "42.333333333333336",
+    "average_review_rating": "4.366666666666666",
+    "has_discount": true,
+    "product_id": 316
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Purple",
+    "category": "Accessories",
+    "average_purchase_amount": "67.66666666666667",
+    "average_review_rating": "4.533333333333334",
+    "has_discount": true,
+    "product_id": 317
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Red",
+    "category": "Accessories",
+    "average_purchase_amount": "49.27272727272727",
+    "average_review_rating": "3.527272727272727",
+    "has_discount": true,
+    "product_id": 318
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Silver",
+    "category": "Accessories",
+    "average_purchase_amount": "90.5",
+    "average_review_rating": "3.9166666666666665",
+    "has_discount": true,
+    "product_id": 319
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Teal",
+    "category": "Accessories",
+    "average_purchase_amount": "70.0",
+    "average_review_rating": "4.111111111111111",
+    "has_discount": true,
+    "product_id": 320
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Turquoise",
+    "category": "Accessories",
+    "average_purchase_amount": "57.666666666666664",
+    "average_review_rating": "3.6666666666666665",
+    "has_discount": true,
+    "product_id": 321
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Violet",
+    "category": "Accessories",
+    "average_purchase_amount": "55.75",
+    "average_review_rating": "3.6750000000000003",
+    "has_discount": true,
+    "product_id": 322
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "White",
+    "category": "Accessories",
+    "average_purchase_amount": "72.0",
+    "average_review_rating": "3.6",
+    "has_discount": true,
+    "product_id": 323
+  },
+  {
+    "item_purchased": "Jewelry",
+    "color": "Yellow",
+    "category": "Accessories",
+    "average_purchase_amount": "56.0",
+    "average_review_rating": "3.855555555555556",
+    "has_discount": true,
+    "product_id": 324
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Beige",
+    "category": "Clothing",
+    "average_purchase_amount": "61.25",
+    "average_review_rating": "4.0",
+    "has_discount": true,
+    "product_id": 325
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Black",
+    "category": "Clothing",
+    "average_purchase_amount": "64.77777777777777",
+    "average_review_rating": "3.744444444444445",
+    "has_discount": true,
+    "product_id": 326
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Blue",
+    "category": "Clothing",
+    "average_purchase_amount": "56.5",
+    "average_review_rating": "3.5",
+    "has_discount": true,
+    "product_id": 327
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Brown",
+    "category": "Clothing",
+    "average_purchase_amount": "59.0",
+    "average_review_rating": "4.05",
+    "has_discount": true,
+    "product_id": 328
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Charcoal",
+    "category": "Clothing",
+    "average_purchase_amount": "57.416666666666664",
+    "average_review_rating": "3.6333333333333333",
+    "has_discount": true,
+    "product_id": 329
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Cyan",
+    "category": "Clothing",
+    "average_purchase_amount": "53.25",
+    "average_review_rating": "3.533333333333333",
+    "has_discount": true,
+    "product_id": 330
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Gold",
+    "category": "Clothing",
+    "average_purchase_amount": "62.333333333333336",
+    "average_review_rating": "3.533333333333333",
+    "has_discount": true,
+    "product_id": 331
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Gray",
+    "category": "Clothing",
+    "average_purchase_amount": "70.25",
+    "average_review_rating": "3.675",
+    "has_discount": true,
+    "product_id": 332
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Green",
+    "category": "Clothing",
+    "average_purchase_amount": "68.5",
+    "average_review_rating": "3.1999999999999997",
+    "has_discount": true,
+    "product_id": 333
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Indigo",
+    "category": "Clothing",
+    "average_purchase_amount": "59.666666666666664",
+    "average_review_rating": "3.8666666666666663",
+    "has_discount": true,
+    "product_id": 334
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Lavender",
+    "category": "Clothing",
+    "average_purchase_amount": "60.4",
+    "average_review_rating": "3.3200000000000003",
+    "has_discount": true,
+    "product_id": 335
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Magenta",
+    "category": "Clothing",
+    "average_purchase_amount": "59.5",
+    "average_review_rating": "3.95",
+    "has_discount": true,
+    "product_id": 336
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Maroon",
+    "category": "Clothing",
+    "average_purchase_amount": "59.166666666666664",
+    "average_review_rating": "3.75",
+    "has_discount": true,
+    "product_id": 337
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Olive",
+    "category": "Clothing",
+    "average_purchase_amount": "53.5",
+    "average_review_rating": "4.05",
+    "has_discount": true,
+    "product_id": 338
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Orange",
+    "category": "Clothing",
+    "average_purchase_amount": "69.0",
+    "average_review_rating": "4.011111111111111",
+    "has_discount": true,
+    "product_id": 339
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Peach",
+    "category": "Clothing",
+    "average_purchase_amount": "46.666666666666664",
+    "average_review_rating": "3.9333333333333336",
+    "has_discount": true,
+    "product_id": 340
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Pink",
+    "category": "Clothing",
+    "average_purchase_amount": "58.5",
+    "average_review_rating": "3.533333333333333",
+    "has_discount": true,
+    "product_id": 341
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Purple",
+    "category": "Clothing",
+    "average_purchase_amount": "46.42857142857143",
+    "average_review_rating": "3.457142857142857",
+    "has_discount": true,
+    "product_id": 342
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Red",
+    "category": "Clothing",
+    "average_purchase_amount": "66.71428571428571",
+    "average_review_rating": "3.9",
+    "has_discount": true,
+    "product_id": 343
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Silver",
+    "category": "Clothing",
+    "average_purchase_amount": "68.625",
+    "average_review_rating": "3.95",
+    "has_discount": true,
+    "product_id": 344
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Teal",
+    "category": "Clothing",
+    "average_purchase_amount": "55.9",
+    "average_review_rating": "3.62",
+    "has_discount": true,
+    "product_id": 345
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Turquoise",
+    "category": "Clothing",
+    "average_purchase_amount": "49.5",
+    "average_review_rating": "3.716666666666667",
+    "has_discount": true,
+    "product_id": 346
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Violet",
+    "category": "Clothing",
+    "average_purchase_amount": "69.33333333333333",
+    "average_review_rating": "3.5666666666666664",
+    "has_discount": true,
+    "product_id": 347
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "White",
+    "category": "Clothing",
+    "average_purchase_amount": "69.4",
+    "average_review_rating": "3.9",
+    "has_discount": true,
+    "product_id": 348
+  },
+  {
+    "item_purchased": "Pants",
+    "color": "Yellow",
+    "category": "Clothing",
+    "average_purchase_amount": "47.6",
+    "average_review_rating": "3.95",
+    "has_discount": true,
+    "product_id": 349
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Beige",
+    "category": "Footwear",
+    "average_purchase_amount": "44.27272727272727",
+    "average_review_rating": "3.4545454545454546",
+    "has_discount": true,
+    "product_id": 350
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Black",
+    "category": "Footwear",
+    "average_purchase_amount": "59.0",
+    "average_review_rating": "3.6999999999999997",
+    "has_discount": true,
+    "product_id": 351
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Blue",
+    "category": "Footwear",
+    "average_purchase_amount": "46.90909090909091",
+    "average_review_rating": "3.836363636363636",
+    "has_discount": true,
+    "product_id": 352
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Brown",
+    "category": "Footwear",
+    "average_purchase_amount": "54.666666666666664",
+    "average_review_rating": "3.6166666666666667",
+    "has_discount": true,
+    "product_id": 353
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Charcoal",
+    "category": "Footwear",
+    "average_purchase_amount": "63.0",
+    "average_review_rating": "3.8499999999999996",
+    "has_discount": true,
+    "product_id": 354
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Cyan",
+    "category": "Footwear",
+    "average_purchase_amount": "64.57142857142857",
+    "average_review_rating": "4.0",
+    "has_discount": true,
+    "product_id": 355
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Gold",
+    "category": "Footwear",
+    "average_purchase_amount": "81.0",
+    "average_review_rating": "3.1999999999999997",
+    "has_discount": true,
+    "product_id": 356
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Gray",
+    "category": "Footwear",
+    "average_purchase_amount": "61.142857142857146",
+    "average_review_rating": "4.214285714285714",
+    "has_discount": true,
+    "product_id": 357
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Green",
+    "category": "Footwear",
+    "average_purchase_amount": "70.4",
+    "average_review_rating": "3.72",
+    "has_discount": true,
+    "product_id": 358
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Indigo",
+    "category": "Footwear",
+    "average_purchase_amount": "76.66666666666667",
+    "average_review_rating": "3.6999999999999997",
+    "has_discount": true,
+    "product_id": 359
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Lavender",
+    "category": "Footwear",
+    "average_purchase_amount": "60.44444444444444",
+    "average_review_rating": "3.7222222222222223",
+    "has_discount": true,
+    "product_id": 360
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Magenta",
+    "category": "Footwear",
+    "average_purchase_amount": "62.0",
+    "average_review_rating": "3.9",
+    "has_discount": true,
+    "product_id": 361
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Maroon",
+    "category": "Footwear",
+    "average_purchase_amount": "79.75",
+    "average_review_rating": "3.75",
+    "has_discount": true,
+    "product_id": 362
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Olive",
+    "category": "Footwear",
+    "average_purchase_amount": "66.6",
+    "average_review_rating": "3.78",
+    "has_discount": true,
+    "product_id": 363
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Orange",
+    "category": "Footwear",
+    "average_purchase_amount": "45.7",
+    "average_review_rating": "4.01",
+    "has_discount": true,
+    "product_id": 364
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Peach",
+    "category": "Footwear",
+    "average_purchase_amount": "61.25",
+    "average_review_rating": "3.675",
+    "has_discount": true,
+    "product_id": 365
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Pink",
+    "category": "Footwear",
+    "average_purchase_amount": "69.6",
+    "average_review_rating": "4.220000000000001",
+    "has_discount": true,
+    "product_id": 366
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Purple",
+    "category": "Footwear",
+    "average_purchase_amount": "64.58333333333333",
+    "average_review_rating": "4.158333333333333",
+    "has_discount": true,
+    "product_id": 367
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Red",
+    "category": "Footwear",
+    "average_purchase_amount": "52.2",
+    "average_review_rating": "3.6",
+    "has_discount": true,
+    "product_id": 368
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Silver",
+    "category": "Footwear",
+    "average_purchase_amount": "53.25",
+    "average_review_rating": "3.7125",
+    "has_discount": true,
+    "product_id": 369
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Teal",
+    "category": "Footwear",
+    "average_purchase_amount": "48.7",
+    "average_review_rating": "3.85",
+    "has_discount": true,
+    "product_id": 370
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Turquoise",
+    "category": "Footwear",
+    "average_purchase_amount": "64.33333333333333",
+    "average_review_rating": "3.8666666666666667",
+    "has_discount": true,
+    "product_id": 371
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Violet",
+    "category": "Footwear",
+    "average_purchase_amount": "38.0",
+    "average_review_rating": "3.8714285714285714",
+    "has_discount": true,
+    "product_id": 372
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "White",
+    "category": "Footwear",
+    "average_purchase_amount": "59.5",
+    "average_review_rating": "3.9",
+    "has_discount": true,
+    "product_id": 373
+  },
+  {
+    "item_purchased": "Sandals",
+    "color": "Yellow",
+    "category": "Footwear",
+    "average_purchase_amount": "58.42857142857143",
+    "average_review_rating": "4.185714285714286",
+    "has_discount": true,
+    "product_id": 374
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Beige",
+    "category": "Accessories",
+    "average_purchase_amount": "59.75",
+    "average_review_rating": "4.0",
+    "has_discount": true,
+    "product_id": 375
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Black",
+    "category": "Accessories",
+    "average_purchase_amount": "65.66666666666667",
+    "average_review_rating": "3.983333333333333",
+    "has_discount": true,
+    "product_id": 376
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Blue",
+    "category": "Accessories",
+    "average_purchase_amount": "60.3",
+    "average_review_rating": "3.9799999999999995",
+    "has_discount": true,
+    "product_id": 377
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Brown",
+    "category": "Accessories",
+    "average_purchase_amount": "69.75",
+    "average_review_rating": "4.074999999999999",
+    "has_discount": true,
+    "product_id": 378
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Charcoal",
+    "category": "Accessories",
+    "average_purchase_amount": "56.333333333333336",
+    "average_review_rating": "3.8166666666666664",
+    "has_discount": true,
+    "product_id": 379
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Cyan",
+    "category": "Accessories",
+    "average_purchase_amount": "97.0",
+    "average_review_rating": "4.6",
+    "has_discount": true,
+    "product_id": 380
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Gold",
+    "category": "Accessories",
+    "average_purchase_amount": "60.142857142857146",
+    "average_review_rating": "3.5142857142857147",
+    "has_discount": true,
+    "product_id": 381
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Gray",
+    "category": "Accessories",
+    "average_purchase_amount": "62.75",
+    "average_review_rating": "4.275",
+    "has_discount": true,
+    "product_id": 382
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Green",
+    "category": "Accessories",
+    "average_purchase_amount": "58.888888888888886",
+    "average_review_rating": "3.711111111111111",
+    "has_discount": true,
+    "product_id": 383
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Indigo",
+    "category": "Accessories",
+    "average_purchase_amount": "51.166666666666664",
+    "average_review_rating": "3.4333333333333336",
+    "has_discount": true,
+    "product_id": 384
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Lavender",
+    "category": "Accessories",
+    "average_purchase_amount": "66.5",
+    "average_review_rating": "3.6166666666666667",
+    "has_discount": true,
+    "product_id": 385
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Magenta",
+    "category": "Accessories",
+    "average_purchase_amount": "61.111111111111114",
+    "average_review_rating": "3.677777777777778",
+    "has_discount": true,
+    "product_id": 386
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Maroon",
+    "category": "Accessories",
+    "average_purchase_amount": "73.0",
+    "average_review_rating": "4.75",
+    "has_discount": true,
+    "product_id": 387
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Olive",
+    "category": "Accessories",
+    "average_purchase_amount": "59.0",
+    "average_review_rating": "3.6818181818181817",
+    "has_discount": true,
+    "product_id": 388
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Orange",
+    "category": "Accessories",
+    "average_purchase_amount": "50.75",
+    "average_review_rating": "3.4375",
+    "has_discount": true,
+    "product_id": 389
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Peach",
+    "category": "Accessories",
+    "average_purchase_amount": "57.5",
+    "average_review_rating": "3.7700000000000005",
+    "has_discount": true,
+    "product_id": 390
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Pink",
+    "category": "Accessories",
+    "average_purchase_amount": "69.14285714285714",
+    "average_review_rating": "3.5",
+    "has_discount": true,
+    "product_id": 391
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Purple",
+    "category": "Accessories",
+    "average_purchase_amount": "66.66666666666667",
+    "average_review_rating": "3.6333333333333333",
+    "has_discount": true,
+    "product_id": 392
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Red",
+    "category": "Accessories",
+    "average_purchase_amount": "92.0",
+    "average_review_rating": "3.95",
+    "has_discount": true,
+    "product_id": 393
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Silver",
+    "category": "Accessories",
+    "average_purchase_amount": "39.57142857142857",
+    "average_review_rating": "3.5285714285714285",
+    "has_discount": true,
+    "product_id": 394
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Teal",
+    "category": "Accessories",
+    "average_purchase_amount": "54.0",
+    "average_review_rating": "3.0",
+    "has_discount": true,
+    "product_id": 395
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Turquoise",
+    "category": "Accessories",
+    "average_purchase_amount": "66.6",
+    "average_review_rating": "3.2399999999999998",
+    "has_discount": true,
+    "product_id": 396
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Violet",
+    "category": "Accessories",
+    "average_purchase_amount": "59.5",
+    "average_review_rating": "3.766666666666667",
+    "has_discount": true,
+    "product_id": 397
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "White",
+    "category": "Accessories",
+    "average_purchase_amount": "73.375",
+    "average_review_rating": "3.6625",
+    "has_discount": true,
+    "product_id": 398
+  },
+  {
+    "item_purchased": "Scarf",
+    "color": "Yellow",
+    "category": "Accessories",
+    "average_purchase_amount": "63.666666666666664",
+    "average_review_rating": "3.5",
+    "has_discount": true,
+    "product_id": 399
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Beige",
+    "category": "Clothing",
+    "average_purchase_amount": "58.166666666666664",
+    "average_review_rating": "3.3000000000000003",
+    "has_discount": true,
+    "product_id": 400
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Black",
+    "category": "Clothing",
+    "average_purchase_amount": "60.666666666666664",
+    "average_review_rating": "3.566666666666667",
+    "has_discount": true,
+    "product_id": 401
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Blue",
+    "category": "Clothing",
+    "average_purchase_amount": "60.4",
+    "average_review_rating": "3.5799999999999996",
+    "has_discount": true,
+    "product_id": 402
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Brown",
+    "category": "Clothing",
+    "average_purchase_amount": "72.5",
+    "average_review_rating": "3.65",
+    "has_discount": true,
+    "product_id": 403
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Charcoal",
+    "category": "Clothing",
+    "average_purchase_amount": "64.5",
+    "average_review_rating": "3.225",
+    "has_discount": true,
+    "product_id": 404
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Cyan",
+    "category": "Clothing",
+    "average_purchase_amount": "64.0",
+    "average_review_rating": "3.85",
+    "has_discount": true,
+    "product_id": 405
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Gold",
+    "category": "Clothing",
+    "average_purchase_amount": "49.714285714285715",
+    "average_review_rating": "3.6285714285714286",
+    "has_discount": true,
+    "product_id": 406
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Gray",
+    "category": "Clothing",
+    "average_purchase_amount": "68.33333333333333",
+    "average_review_rating": "3.7000000000000006",
+    "has_discount": true,
+    "product_id": 407
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Green",
+    "category": "Clothing",
+    "average_purchase_amount": "68.85714285714286",
+    "average_review_rating": "3.2142857142857144",
+    "has_discount": true,
+    "product_id": 408
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Indigo",
+    "category": "Clothing",
+    "average_purchase_amount": "73.0",
+    "average_review_rating": "3.6799999999999997",
+    "has_discount": true,
+    "product_id": 409
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Lavender",
+    "category": "Clothing",
+    "average_purchase_amount": "64.5",
+    "average_review_rating": "3.25",
+    "has_discount": true,
+    "product_id": 410
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Magenta",
+    "category": "Clothing",
+    "average_purchase_amount": "66.83333333333333",
+    "average_review_rating": "3.466666666666667",
+    "has_discount": true,
+    "product_id": 411
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Maroon",
+    "category": "Clothing",
+    "average_purchase_amount": "61.5",
+    "average_review_rating": "3.5700000000000003",
+    "has_discount": true,
+    "product_id": 412
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Olive",
+    "category": "Clothing",
+    "average_purchase_amount": "79.8",
+    "average_review_rating": "3.9200000000000004",
+    "has_discount": true,
+    "product_id": 413
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Orange",
+    "category": "Clothing",
+    "average_purchase_amount": "46.1",
+    "average_review_rating": "3.69",
+    "has_discount": true,
+    "product_id": 414
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Peach",
+    "category": "Clothing",
+    "average_purchase_amount": "54.57142857142857",
+    "average_review_rating": "3.914285714285714",
+    "has_discount": true,
+    "product_id": 415
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Pink",
+    "category": "Clothing",
+    "average_purchase_amount": "70.0",
+    "average_review_rating": "3.7600000000000002",
+    "has_discount": true,
+    "product_id": 416
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Purple",
+    "category": "Clothing",
+    "average_purchase_amount": "67.6",
+    "average_review_rating": "3.7",
+    "has_discount": true,
+    "product_id": 417
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Red",
+    "category": "Clothing",
+    "average_purchase_amount": "47.2",
+    "average_review_rating": "3.7399999999999998",
+    "has_discount": true,
+    "product_id": 418
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Silver",
+    "category": "Clothing",
+    "average_purchase_amount": "44.2",
+    "average_review_rating": "3.78",
+    "has_discount": true,
+    "product_id": 419
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Teal",
+    "category": "Clothing",
+    "average_purchase_amount": "67.2",
+    "average_review_rating": "3.8",
+    "has_discount": true,
+    "product_id": 420
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Turquoise",
+    "category": "Clothing",
+    "average_purchase_amount": "56.5",
+    "average_review_rating": "3.75",
+    "has_discount": true,
+    "product_id": 421
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Violet",
+    "category": "Clothing",
+    "average_purchase_amount": "74.88888888888889",
+    "average_review_rating": "3.533333333333333",
+    "has_discount": true,
+    "product_id": 422
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "White",
+    "category": "Clothing",
+    "average_purchase_amount": "55.857142857142854",
+    "average_review_rating": "3.2285714285714286",
+    "has_discount": true,
+    "product_id": 423
+  },
+  {
+    "item_purchased": "Shirt",
+    "color": "Yellow",
+    "category": "Clothing",
+    "average_purchase_amount": "50.6",
+    "average_review_rating": "4.220000000000001",
+    "has_discount": true,
+    "product_id": 424
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Beige",
+    "category": "Footwear",
+    "average_purchase_amount": "55.666666666666664",
+    "average_review_rating": "3.6",
+    "has_discount": true,
+    "product_id": 425
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Black",
+    "category": "Footwear",
+    "average_purchase_amount": "74.33333333333333",
+    "average_review_rating": "3.533333333333333",
+    "has_discount": true,
+    "product_id": 426
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Blue",
+    "category": "Footwear",
+    "average_purchase_amount": "64.33333333333333",
+    "average_review_rating": "3.283333333333333",
+    "has_discount": true,
+    "product_id": 427
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Brown",
+    "category": "Footwear",
+    "average_purchase_amount": "70.85714285714286",
+    "average_review_rating": "3.6285714285714286",
+    "has_discount": true,
+    "product_id": 428
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Charcoal",
+    "category": "Footwear",
+    "average_purchase_amount": "74.0",
+    "average_review_rating": "3.575",
+    "has_discount": true,
+    "product_id": 429
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Cyan",
+    "category": "Footwear",
+    "average_purchase_amount": "68.5",
+    "average_review_rating": "3.3",
+    "has_discount": true,
+    "product_id": 430
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Gold",
+    "category": "Footwear",
+    "average_purchase_amount": "63.18181818181818",
+    "average_review_rating": "3.8545454545454545",
+    "has_discount": true,
+    "product_id": 431
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Gray",
+    "category": "Footwear",
+    "average_purchase_amount": "57.4",
+    "average_review_rating": "4.3",
+    "has_discount": true,
+    "product_id": 432
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Green",
+    "category": "Footwear",
+    "average_purchase_amount": "75.125",
+    "average_review_rating": "3.675",
+    "has_discount": true,
+    "product_id": 433
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Indigo",
+    "category": "Footwear",
+    "average_purchase_amount": "63.0",
+    "average_review_rating": "3.466666666666667",
+    "has_discount": true,
+    "product_id": 434
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Lavender",
+    "category": "Footwear",
+    "average_purchase_amount": "61.5",
+    "average_review_rating": "3.6166666666666667",
+    "has_discount": true,
+    "product_id": 435
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Magenta",
+    "category": "Footwear",
+    "average_purchase_amount": "51.25",
+    "average_review_rating": "3.875",
+    "has_discount": true,
+    "product_id": 436
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Maroon",
+    "category": "Footwear",
+    "average_purchase_amount": "59.25",
+    "average_review_rating": "3.841666666666667",
+    "has_discount": true,
+    "product_id": 437
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Olive",
+    "category": "Footwear",
+    "average_purchase_amount": "47.1",
+    "average_review_rating": "3.8899999999999997",
+    "has_discount": true,
+    "product_id": 438
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Orange",
+    "category": "Footwear",
+    "average_purchase_amount": "60.333333333333336",
+    "average_review_rating": "4.466666666666667",
+    "has_discount": true,
+    "product_id": 439
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Peach",
+    "category": "Footwear",
+    "average_purchase_amount": "63.0",
+    "average_review_rating": "3.4799999999999995",
+    "has_discount": true,
+    "product_id": 440
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Pink",
+    "category": "Footwear",
+    "average_purchase_amount": "63.0",
+    "average_review_rating": "3.6142857142857143",
+    "has_discount": true,
+    "product_id": 441
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Purple",
+    "category": "Footwear",
+    "average_purchase_amount": "60.4",
+    "average_review_rating": "3.8",
+    "has_discount": true,
+    "product_id": 442
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Red",
+    "category": "Footwear",
+    "average_purchase_amount": "39.25",
+    "average_review_rating": "3.175",
+    "has_discount": true,
+    "product_id": 443
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Silver",
+    "category": "Footwear",
+    "average_purchase_amount": "60.833333333333336",
+    "average_review_rating": "4.033333333333333",
+    "has_discount": true,
+    "product_id": 444
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Teal",
+    "category": "Footwear",
+    "average_purchase_amount": "66.25",
+    "average_review_rating": "3.725",
+    "has_discount": true,
+    "product_id": 445
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Turquoise",
+    "category": "Footwear",
+    "average_purchase_amount": "42.714285714285715",
+    "average_review_rating": "3.757142857142857",
+    "has_discount": true,
+    "product_id": 446
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Violet",
+    "category": "Footwear",
+    "average_purchase_amount": "71.5",
+    "average_review_rating": "3.6999999999999997",
+    "has_discount": true,
+    "product_id": 447
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "White",
+    "category": "Footwear",
+    "average_purchase_amount": "64.44444444444444",
+    "average_review_rating": "3.9555555555555557",
+    "has_discount": true,
+    "product_id": 448
+  },
+  {
+    "item_purchased": "Shoes",
+    "color": "Yellow",
+    "category": "Footwear",
+    "average_purchase_amount": "62.6",
+    "average_review_rating": "4.12",
+    "has_discount": true,
+    "product_id": 449
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Beige",
+    "category": "Clothing",
+    "average_purchase_amount": "54.666666666666664",
+    "average_review_rating": "3.25",
+    "has_discount": true,
+    "product_id": 450
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Black",
+    "category": "Clothing",
+    "average_purchase_amount": "59.0",
+    "average_review_rating": "3.677777777777778",
+    "has_discount": true,
+    "product_id": 451
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Blue",
+    "category": "Clothing",
+    "average_purchase_amount": "71.6",
+    "average_review_rating": "3.56",
+    "has_discount": true,
+    "product_id": 452
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Brown",
+    "category": "Clothing",
+    "average_purchase_amount": "47.125",
+    "average_review_rating": "3.7625",
+    "has_discount": true,
+    "product_id": 453
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Charcoal",
+    "category": "Clothing",
+    "average_purchase_amount": "73.75",
+    "average_review_rating": "3.3000000000000003",
+    "has_discount": true,
+    "product_id": 454
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Cyan",
+    "category": "Clothing",
+    "average_purchase_amount": "56.4",
+    "average_review_rating": "3.95",
+    "has_discount": true,
+    "product_id": 455
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Gold",
+    "category": "Clothing",
+    "average_purchase_amount": "59.714285714285715",
+    "average_review_rating": "3.957142857142857",
+    "has_discount": true,
+    "product_id": 456
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Gray",
+    "category": "Clothing",
+    "average_purchase_amount": "53.142857142857146",
+    "average_review_rating": "3.042857142857143",
+    "has_discount": true,
+    "product_id": 457
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Green",
+    "category": "Clothing",
+    "average_purchase_amount": "67.0",
+    "average_review_rating": "3.6285714285714286",
+    "has_discount": true,
+    "product_id": 458
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Indigo",
+    "category": "Clothing",
+    "average_purchase_amount": "55.0",
+    "average_review_rating": "4.266666666666667",
+    "has_discount": true,
+    "product_id": 459
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Lavender",
+    "category": "Clothing",
+    "average_purchase_amount": "56.75",
+    "average_review_rating": "3.375",
+    "has_discount": true,
+    "product_id": 460
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Magenta",
+    "category": "Clothing",
+    "average_purchase_amount": "41.8",
+    "average_review_rating": "4.24",
+    "has_discount": true,
+    "product_id": 461
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Maroon",
+    "category": "Clothing",
+    "average_purchase_amount": "69.85714285714286",
+    "average_review_rating": "4.257142857142857",
+    "has_discount": true,
+    "product_id": 462
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Olive",
+    "category": "Clothing",
+    "average_purchase_amount": "57.285714285714285",
+    "average_review_rating": "4.128571428571428",
+    "has_discount": true,
+    "product_id": 463
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Orange",
+    "category": "Clothing",
+    "average_purchase_amount": "69.2",
+    "average_review_rating": "4.04",
+    "has_discount": true,
+    "product_id": 464
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Peach",
+    "category": "Clothing",
+    "average_purchase_amount": "46.0",
+    "average_review_rating": "3.7833333333333337",
+    "has_discount": true,
+    "product_id": 465
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Pink",
+    "category": "Clothing",
+    "average_purchase_amount": "50.666666666666664",
+    "average_review_rating": "3.9166666666666665",
+    "has_discount": true,
+    "product_id": 466
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Purple",
+    "category": "Clothing",
+    "average_purchase_amount": "43.166666666666664",
+    "average_review_rating": "3.5666666666666664",
+    "has_discount": true,
+    "product_id": 467
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Red",
+    "category": "Clothing",
+    "average_purchase_amount": "61.6",
+    "average_review_rating": "3.78",
+    "has_discount": true,
+    "product_id": 468
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Silver",
+    "category": "Clothing",
+    "average_purchase_amount": "67.0",
+    "average_review_rating": "3.4",
+    "has_discount": true,
+    "product_id": 469
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Teal",
+    "category": "Clothing",
+    "average_purchase_amount": "59.25",
+    "average_review_rating": "3.475",
+    "has_discount": true,
+    "product_id": 470
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Turquoise",
+    "category": "Clothing",
+    "average_purchase_amount": "69.83333333333333",
+    "average_review_rating": "3.5500000000000003",
+    "has_discount": true,
+    "product_id": 471
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Violet",
+    "category": "Clothing",
+    "average_purchase_amount": "66.71428571428571",
+    "average_review_rating": "3.4285714285714284",
+    "has_discount": true,
+    "product_id": 472
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "White",
+    "category": "Clothing",
+    "average_purchase_amount": "81.25",
+    "average_review_rating": "3.0",
+    "has_discount": true,
+    "product_id": 473
+  },
+  {
+    "item_purchased": "Shorts",
+    "color": "Yellow",
+    "category": "Clothing",
+    "average_purchase_amount": "70.61538461538461",
+    "average_review_rating": "3.869230769230769",
+    "has_discount": true,
+    "product_id": 474
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Beige",
+    "category": "Clothing",
+    "average_purchase_amount": "51.666666666666664",
+    "average_review_rating": "3.966666666666667",
+    "has_discount": true,
+    "product_id": 475
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Black",
+    "category": "Clothing",
+    "average_purchase_amount": "46.266666666666666",
+    "average_review_rating": "3.82",
+    "has_discount": true,
+    "product_id": 476
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Blue",
+    "category": "Clothing",
+    "average_purchase_amount": "58.0",
+    "average_review_rating": "3.733333333333334",
+    "has_discount": true,
+    "product_id": 477
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Brown",
+    "category": "Clothing",
+    "average_purchase_amount": "50.6",
+    "average_review_rating": "3.66",
+    "has_discount": true,
+    "product_id": 478
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Charcoal",
+    "category": "Clothing",
+    "average_purchase_amount": "58.75",
+    "average_review_rating": "4.325",
+    "has_discount": true,
+    "product_id": 479
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Cyan",
+    "category": "Clothing",
+    "average_purchase_amount": "76.16666666666667",
+    "average_review_rating": "3.0500000000000003",
+    "has_discount": true,
+    "product_id": 480
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Gold",
+    "category": "Clothing",
+    "average_purchase_amount": "53.4",
+    "average_review_rating": "4.2",
+    "has_discount": true,
+    "product_id": 481
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Gray",
+    "category": "Clothing",
+    "average_purchase_amount": "55.714285714285715",
+    "average_review_rating": "3.4857142857142853",
+    "has_discount": true,
+    "product_id": 482
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Green",
+    "category": "Clothing",
+    "average_purchase_amount": "66.0",
+    "average_review_rating": "3.85",
+    "has_discount": true,
+    "product_id": 483
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Indigo",
+    "category": "Clothing",
+    "average_purchase_amount": "53.25",
+    "average_review_rating": "3.825",
+    "has_discount": true,
+    "product_id": 484
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Lavender",
+    "category": "Clothing",
+    "average_purchase_amount": "65.5",
+    "average_review_rating": "3.65",
+    "has_discount": true,
+    "product_id": 485
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Magenta",
+    "category": "Clothing",
+    "average_purchase_amount": "54.5",
+    "average_review_rating": "3.975",
+    "has_discount": true,
+    "product_id": 486
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Maroon",
+    "category": "Clothing",
+    "average_purchase_amount": "64.375",
+    "average_review_rating": "4.0125",
+    "has_discount": true,
+    "product_id": 487
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Olive",
+    "category": "Clothing",
+    "average_purchase_amount": "58.2",
+    "average_review_rating": "4.0200000000000005",
+    "has_discount": true,
+    "product_id": 488
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Orange",
+    "category": "Clothing",
+    "average_purchase_amount": "66.57142857142857",
+    "average_review_rating": "3.3428571428571425",
+    "has_discount": true,
+    "product_id": 489
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Peach",
+    "category": "Clothing",
+    "average_purchase_amount": "58.22222222222222",
+    "average_review_rating": "3.644444444444444",
+    "has_discount": true,
+    "product_id": 490
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Pink",
+    "category": "Clothing",
+    "average_purchase_amount": "62.285714285714285",
+    "average_review_rating": "3.7285714285714286",
+    "has_discount": true,
+    "product_id": 491
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Purple",
+    "category": "Clothing",
+    "average_purchase_amount": "63.4",
+    "average_review_rating": "4.08",
+    "has_discount": true,
+    "product_id": 492
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Red",
+    "category": "Clothing",
+    "average_purchase_amount": "51.875",
+    "average_review_rating": "3.825",
+    "has_discount": true,
+    "product_id": 493
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Silver",
+    "category": "Clothing",
+    "average_purchase_amount": "62.5",
+    "average_review_rating": "4.25",
+    "has_discount": true,
+    "product_id": 494
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Teal",
+    "category": "Clothing",
+    "average_purchase_amount": "69.5",
+    "average_review_rating": "3.8083333333333336",
+    "has_discount": true,
+    "product_id": 495
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Turquoise",
+    "category": "Clothing",
+    "average_purchase_amount": "43.333333333333336",
+    "average_review_rating": "3.533333333333333",
+    "has_discount": true,
+    "product_id": 496
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Violet",
+    "category": "Clothing",
+    "average_purchase_amount": "68.16666666666667",
+    "average_review_rating": "3.4499999999999997",
+    "has_discount": true,
+    "product_id": 497
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "White",
+    "category": "Clothing",
+    "average_purchase_amount": "64.33333333333333",
+    "average_review_rating": "3.966666666666667",
+    "has_discount": true,
+    "product_id": 498
+  },
+  {
+    "item_purchased": "Skirt",
+    "color": "Yellow",
+    "category": "Clothing",
+    "average_purchase_amount": "59.0",
+    "average_review_rating": "3.65",
+    "has_discount": true,
+    "product_id": 499
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Beige",
+    "category": "Footwear",
+    "average_purchase_amount": "70.14285714285714",
+    "average_review_rating": "3.957142857142857",
+    "has_discount": true,
+    "product_id": 500
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Black",
+    "category": "Footwear",
+    "average_purchase_amount": "55.888888888888886",
+    "average_review_rating": "3.6333333333333337",
+    "has_discount": true,
+    "product_id": 501
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Blue",
+    "category": "Footwear",
+    "average_purchase_amount": "56.0",
+    "average_review_rating": "3.0",
+    "has_discount": true,
+    "product_id": 502
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Brown",
+    "category": "Footwear",
+    "average_purchase_amount": "54.0",
+    "average_review_rating": "3.8",
+    "has_discount": true,
+    "product_id": 503
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Charcoal",
+    "category": "Footwear",
+    "average_purchase_amount": "80.0",
+    "average_review_rating": "4.325",
+    "has_discount": true,
+    "product_id": 504
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Cyan",
+    "category": "Footwear",
+    "average_purchase_amount": "53.55555555555556",
+    "average_review_rating": "3.7222222222222223",
+    "has_discount": true,
+    "product_id": 505
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Gold",
+    "category": "Footwear",
+    "average_purchase_amount": "42.42857142857143",
+    "average_review_rating": "3.957142857142857",
+    "has_discount": true,
+    "product_id": 506
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Gray",
+    "category": "Footwear",
+    "average_purchase_amount": "62.2",
+    "average_review_rating": "3.96",
+    "has_discount": true,
+    "product_id": 507
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Green",
+    "category": "Footwear",
+    "average_purchase_amount": "71.6",
+    "average_review_rating": "3.22",
+    "has_discount": true,
+    "product_id": 508
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Indigo",
+    "category": "Footwear",
+    "average_purchase_amount": "51.833333333333336",
+    "average_review_rating": "3.716666666666667",
+    "has_discount": true,
+    "product_id": 509
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Lavender",
+    "category": "Footwear",
+    "average_purchase_amount": "20.0",
+    "average_review_rating": "3.9",
+    "has_discount": true,
+    "product_id": 510
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Magenta",
+    "category": "Footwear",
+    "average_purchase_amount": "53.333333333333336",
+    "average_review_rating": "3.5444444444444443",
+    "has_discount": true,
+    "product_id": 511
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Maroon",
+    "category": "Footwear",
+    "average_purchase_amount": "63.0",
+    "average_review_rating": "3.6",
+    "has_discount": true,
+    "product_id": 512
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Olive",
+    "category": "Footwear",
+    "average_purchase_amount": "55.75",
+    "average_review_rating": "3.6375",
+    "has_discount": true,
+    "product_id": 513
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Orange",
+    "category": "Footwear",
+    "average_purchase_amount": "63.666666666666664",
+    "average_review_rating": "4.133333333333334",
+    "has_discount": true,
+    "product_id": 514
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Peach",
+    "category": "Footwear",
+    "average_purchase_amount": "67.33333333333333",
+    "average_review_rating": "3.4333333333333336",
+    "has_discount": true,
+    "product_id": 515
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Pink",
+    "category": "Footwear",
+    "average_purchase_amount": "75.33333333333333",
+    "average_review_rating": "3.7777777777777777",
+    "has_discount": true,
+    "product_id": 516
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Purple",
+    "category": "Footwear",
+    "average_purchase_amount": "50.25",
+    "average_review_rating": "3.625",
+    "has_discount": true,
+    "product_id": 517
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Red",
+    "category": "Footwear",
+    "average_purchase_amount": "74.33333333333333",
+    "average_review_rating": "4.0",
+    "has_discount": true,
+    "product_id": 518
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Silver",
+    "category": "Footwear",
+    "average_purchase_amount": "45.5",
+    "average_review_rating": "3.7125",
+    "has_discount": true,
+    "product_id": 519
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Teal",
+    "category": "Footwear",
+    "average_purchase_amount": "64.25",
+    "average_review_rating": "3.575",
+    "has_discount": true,
+    "product_id": 520
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Turquoise",
+    "category": "Footwear",
+    "average_purchase_amount": "50.333333333333336",
+    "average_review_rating": "3.733333333333333",
+    "has_discount": true,
+    "product_id": 521
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Violet",
+    "category": "Footwear",
+    "average_purchase_amount": "74.0",
+    "average_review_rating": "3.96",
+    "has_discount": true,
+    "product_id": 522
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "White",
+    "category": "Footwear",
+    "average_purchase_amount": "47.0",
+    "average_review_rating": "3.733333333333333",
+    "has_discount": true,
+    "product_id": 523
+  },
+  {
+    "item_purchased": "Sneakers",
+    "color": "Yellow",
+    "category": "Footwear",
+    "average_purchase_amount": "69.25",
+    "average_review_rating": "4.1125",
+    "has_discount": true,
+    "product_id": 524
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Beige",
+    "category": "Clothing",
+    "average_purchase_amount": "70.66666666666667",
+    "average_review_rating": "3.3333333333333335",
+    "has_discount": true,
+    "product_id": 525
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Black",
+    "category": "Clothing",
+    "average_purchase_amount": "48.4",
+    "average_review_rating": "4.11",
+    "has_discount": true,
+    "product_id": 526
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Blue",
+    "category": "Clothing",
+    "average_purchase_amount": "39.5",
+    "average_review_rating": "2.825",
+    "has_discount": true,
+    "product_id": 527
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Brown",
+    "category": "Clothing",
+    "average_purchase_amount": "62.4",
+    "average_review_rating": "3.7399999999999998",
+    "has_discount": true,
+    "product_id": 528
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Charcoal",
+    "category": "Clothing",
+    "average_purchase_amount": "56.2",
+    "average_review_rating": "3.56",
+    "has_discount": true,
+    "product_id": 529
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Cyan",
+    "category": "Clothing",
+    "average_purchase_amount": "67.33333333333333",
+    "average_review_rating": "3.9333333333333336",
+    "has_discount": true,
+    "product_id": 530
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Gold",
+    "category": "Clothing",
+    "average_purchase_amount": "59.8",
+    "average_review_rating": "3.4799999999999995",
+    "has_discount": true,
+    "product_id": 531
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Gray",
+    "category": "Clothing",
+    "average_purchase_amount": "65.0",
+    "average_review_rating": "4.066666666666666",
+    "has_discount": true,
+    "product_id": 532
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Green",
+    "category": "Clothing",
+    "average_purchase_amount": "62.833333333333336",
+    "average_review_rating": "3.8333333333333335",
+    "has_discount": true,
+    "product_id": 533
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Indigo",
+    "category": "Clothing",
+    "average_purchase_amount": "44.55555555555556",
+    "average_review_rating": "3.511111111111111",
+    "has_discount": true,
+    "product_id": 534
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Lavender",
+    "category": "Clothing",
+    "average_purchase_amount": "56.42857142857143",
+    "average_review_rating": "3.4857142857142853",
+    "has_discount": true,
+    "product_id": 535
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Magenta",
+    "category": "Clothing",
+    "average_purchase_amount": "54.2",
+    "average_review_rating": "3.7600000000000002",
+    "has_discount": true,
+    "product_id": 536
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Maroon",
+    "category": "Clothing",
+    "average_purchase_amount": "57.55555555555556",
+    "average_review_rating": "3.966666666666667",
+    "has_discount": true,
+    "product_id": 537
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Olive",
+    "category": "Clothing",
+    "average_purchase_amount": "48.0",
+    "average_review_rating": "4.0285714285714285",
+    "has_discount": true,
+    "product_id": 538
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Orange",
+    "category": "Clothing",
+    "average_purchase_amount": "65.33333333333333",
+    "average_review_rating": "3.9333333333333336",
+    "has_discount": true,
+    "product_id": 539
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Peach",
+    "category": "Clothing",
+    "average_purchase_amount": "72.77777777777777",
+    "average_review_rating": "3.6555555555555554",
+    "has_discount": true,
+    "product_id": 540
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Pink",
+    "category": "Clothing",
+    "average_purchase_amount": "46.666666666666664",
+    "average_review_rating": "4.266666666666667",
+    "has_discount": true,
+    "product_id": 541
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Purple",
+    "category": "Clothing",
+    "average_purchase_amount": "60.55555555555556",
+    "average_review_rating": "3.688888888888889",
+    "has_discount": true,
+    "product_id": 542
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Red",
+    "category": "Clothing",
+    "average_purchase_amount": "63.3",
+    "average_review_rating": "3.87",
+    "has_discount": true,
+    "product_id": 543
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Silver",
+    "category": "Clothing",
+    "average_purchase_amount": "50.6",
+    "average_review_rating": "3.6",
+    "has_discount": true,
+    "product_id": 544
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Teal",
+    "category": "Clothing",
+    "average_purchase_amount": "69.5",
+    "average_review_rating": "3.75",
+    "has_discount": true,
+    "product_id": 545
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Turquoise",
+    "category": "Clothing",
+    "average_purchase_amount": "49.0",
+    "average_review_rating": "3.1",
+    "has_discount": true,
+    "product_id": 546
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Violet",
+    "category": "Clothing",
+    "average_purchase_amount": "62.57142857142857",
+    "average_review_rating": "4.0",
+    "has_discount": true,
+    "product_id": 547
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "White",
+    "category": "Clothing",
+    "average_purchase_amount": "67.16666666666667",
+    "average_review_rating": "3.75",
+    "has_discount": true,
+    "product_id": 548
+  },
+  {
+    "item_purchased": "Socks",
+    "color": "Yellow",
+    "category": "Clothing",
+    "average_purchase_amount": "70.8",
+    "average_review_rating": "3.84",
+    "has_discount": true,
+    "product_id": 549
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Beige",
+    "category": "Accessories",
+    "average_purchase_amount": "61.666666666666664",
+    "average_review_rating": "3.6833333333333336",
+    "has_discount": true,
+    "product_id": 550
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Black",
+    "category": "Accessories",
+    "average_purchase_amount": "52.4",
+    "average_review_rating": "3.87",
+    "has_discount": true,
+    "product_id": 551
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Blue",
+    "category": "Accessories",
+    "average_purchase_amount": "66.83333333333333",
+    "average_review_rating": "3.6666666666666665",
+    "has_discount": true,
+    "product_id": 552
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Brown",
+    "category": "Accessories",
+    "average_purchase_amount": "64.8",
+    "average_review_rating": "3.6",
+    "has_discount": true,
+    "product_id": 553
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Charcoal",
+    "category": "Accessories",
+    "average_purchase_amount": "51.166666666666664",
+    "average_review_rating": "3.5833333333333335",
+    "has_discount": true,
+    "product_id": 554
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Cyan",
+    "category": "Accessories",
+    "average_purchase_amount": "69.66666666666667",
+    "average_review_rating": "3.9333333333333336",
+    "has_discount": true,
+    "product_id": 555
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Gold",
+    "category": "Accessories",
+    "average_purchase_amount": "50.0",
+    "average_review_rating": "4.166666666666667",
+    "has_discount": true,
+    "product_id": 556
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Gray",
+    "category": "Accessories",
+    "average_purchase_amount": "57.5",
+    "average_review_rating": "3.6833333333333336",
+    "has_discount": true,
+    "product_id": 557
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Green",
+    "category": "Accessories",
+    "average_purchase_amount": "63.75",
+    "average_review_rating": "3.325",
+    "has_discount": true,
+    "product_id": 558
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Indigo",
+    "category": "Accessories",
+    "average_purchase_amount": "62.5",
+    "average_review_rating": "3.4333333333333336",
+    "has_discount": true,
+    "product_id": 559
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Lavender",
+    "category": "Accessories",
+    "average_purchase_amount": "68.91666666666667",
+    "average_review_rating": "3.608333333333333",
+    "has_discount": true,
+    "product_id": 560
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Magenta",
+    "category": "Accessories",
+    "average_purchase_amount": "62.142857142857146",
+    "average_review_rating": "3.7142857142857144",
+    "has_discount": true,
+    "product_id": 561
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Maroon",
+    "category": "Accessories",
+    "average_purchase_amount": "70.0",
+    "average_review_rating": "3.8",
+    "has_discount": true,
+    "product_id": 562
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Olive",
+    "category": "Accessories",
+    "average_purchase_amount": "48.416666666666664",
+    "average_review_rating": "3.766666666666667",
+    "has_discount": true,
+    "product_id": 563
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Orange",
+    "category": "Accessories",
+    "average_purchase_amount": "41.8",
+    "average_review_rating": "3.5799999999999996",
+    "has_discount": true,
+    "product_id": 564
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Peach",
+    "category": "Accessories",
+    "average_purchase_amount": "70.33333333333333",
+    "average_review_rating": "4.433333333333334",
+    "has_discount": true,
+    "product_id": 565
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Pink",
+    "category": "Accessories",
+    "average_purchase_amount": "51.666666666666664",
+    "average_review_rating": "3.8166666666666664",
+    "has_discount": true,
+    "product_id": 566
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Purple",
+    "category": "Accessories",
+    "average_purchase_amount": "65.0",
+    "average_review_rating": "3.7624999999999997",
+    "has_discount": true,
+    "product_id": 567
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Red",
+    "category": "Accessories",
+    "average_purchase_amount": "63.25",
+    "average_review_rating": "4.15",
+    "has_discount": true,
+    "product_id": 568
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Silver",
+    "category": "Accessories",
+    "average_purchase_amount": "65.0",
+    "average_review_rating": "3.925",
+    "has_discount": true,
+    "product_id": 569
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Teal",
+    "category": "Accessories",
+    "average_purchase_amount": "57.42857142857143",
+    "average_review_rating": "3.6999999999999997",
+    "has_discount": true,
+    "product_id": 570
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Turquoise",
+    "category": "Accessories",
+    "average_purchase_amount": "61.0",
+    "average_review_rating": "3.744444444444445",
+    "has_discount": true,
+    "product_id": 571
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Violet",
+    "category": "Accessories",
+    "average_purchase_amount": "38.5",
+    "average_review_rating": "3.1",
+    "has_discount": true,
+    "product_id": 572
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "White",
+    "category": "Accessories",
+    "average_purchase_amount": "60.44444444444444",
+    "average_review_rating": "3.488888888888889",
+    "has_discount": true,
+    "product_id": 573
+  },
+  {
+    "item_purchased": "Sunglasses",
+    "color": "Yellow",
+    "category": "Accessories",
+    "average_purchase_amount": "66.5",
+    "average_review_rating": "4.116666666666666",
+    "has_discount": true,
+    "product_id": 574
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Beige",
+    "category": "Clothing",
+    "average_purchase_amount": "48.0",
+    "average_review_rating": "3.775",
+    "has_discount": true,
+    "product_id": 575
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Black",
+    "category": "Clothing",
+    "average_purchase_amount": "71.2",
+    "average_review_rating": "4.0",
+    "has_discount": true,
+    "product_id": 576
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Blue",
+    "category": "Clothing",
+    "average_purchase_amount": "47.8",
+    "average_review_rating": "3.06",
+    "has_discount": true,
+    "product_id": 577
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Brown",
+    "category": "Clothing",
+    "average_purchase_amount": "60.5",
+    "average_review_rating": "3.85",
+    "has_discount": true,
+    "product_id": 578
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Charcoal",
+    "category": "Clothing",
+    "average_purchase_amount": "60.6",
+    "average_review_rating": "3.18",
+    "has_discount": true,
+    "product_id": 579
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Cyan",
+    "category": "Clothing",
+    "average_purchase_amount": "51.0",
+    "average_review_rating": "4.108333333333333",
+    "has_discount": true,
+    "product_id": 580
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Gold",
+    "category": "Clothing",
+    "average_purchase_amount": "44.2",
+    "average_review_rating": "3.56",
+    "has_discount": true,
+    "product_id": 581
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Gray",
+    "category": "Clothing",
+    "average_purchase_amount": "70.14285714285714",
+    "average_review_rating": "3.9714285714285715",
+    "has_discount": true,
+    "product_id": 582
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Green",
+    "category": "Clothing",
+    "average_purchase_amount": "57.333333333333336",
+    "average_review_rating": "3.8833333333333333",
+    "has_discount": true,
+    "product_id": 583
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Indigo",
+    "category": "Clothing",
+    "average_purchase_amount": "44.0",
+    "average_review_rating": "4.35",
+    "has_discount": true,
+    "product_id": 584
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Lavender",
+    "category": "Clothing",
+    "average_purchase_amount": "61.333333333333336",
+    "average_review_rating": "4.3999999999999995",
+    "has_discount": true,
+    "product_id": 585
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Magenta",
+    "category": "Clothing",
+    "average_purchase_amount": "53.666666666666664",
+    "average_review_rating": "4.0",
+    "has_discount": true,
+    "product_id": 586
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Maroon",
+    "category": "Clothing",
+    "average_purchase_amount": "60.0",
+    "average_review_rating": "3.391666666666667",
+    "has_discount": true,
+    "product_id": 587
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Olive",
+    "category": "Clothing",
+    "average_purchase_amount": "52.0",
+    "average_review_rating": "3.942857142857143",
+    "has_discount": true,
+    "product_id": 588
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Orange",
+    "category": "Clothing",
+    "average_purchase_amount": "67.81818181818181",
+    "average_review_rating": "4.181818181818182",
+    "has_discount": true,
+    "product_id": 589
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Peach",
+    "category": "Clothing",
+    "average_purchase_amount": "58.0",
+    "average_review_rating": "3.466666666666667",
+    "has_discount": true,
+    "product_id": 590
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Pink",
+    "category": "Clothing",
+    "average_purchase_amount": "75.0",
+    "average_review_rating": "3.9499999999999997",
+    "has_discount": true,
+    "product_id": 591
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Purple",
+    "category": "Clothing",
+    "average_purchase_amount": "65.16666666666667",
+    "average_review_rating": "4.05",
+    "has_discount": true,
+    "product_id": 592
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Red",
+    "category": "Clothing",
+    "average_purchase_amount": "60.2",
+    "average_review_rating": "3.12",
+    "has_discount": true,
+    "product_id": 593
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Silver",
+    "category": "Clothing",
+    "average_purchase_amount": "54.166666666666664",
+    "average_review_rating": "3.533333333333333",
+    "has_discount": true,
+    "product_id": 594
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Teal",
+    "category": "Clothing",
+    "average_purchase_amount": "54.5",
+    "average_review_rating": "3.6700000000000004",
+    "has_discount": true,
+    "product_id": 595
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Turquoise",
+    "category": "Clothing",
+    "average_purchase_amount": "38.22222222222222",
+    "average_review_rating": "3.966666666666667",
+    "has_discount": true,
+    "product_id": 596
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Violet",
+    "category": "Clothing",
+    "average_purchase_amount": "66.5",
+    "average_review_rating": "3.4499999999999997",
+    "has_discount": true,
+    "product_id": 597
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "White",
+    "category": "Clothing",
+    "average_purchase_amount": "63.125",
+    "average_review_rating": "3.7375000000000003",
+    "has_discount": true,
+    "product_id": 598
+  },
+  {
+    "item_purchased": "Sweater",
+    "color": "Yellow",
+    "category": "Clothing",
+    "average_purchase_amount": "61.142857142857146",
+    "average_review_rating": "3.742857142857143",
+    "has_discount": true,
+    "product_id": 599
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Beige",
+    "category": "Clothing",
+    "average_purchase_amount": "60.5",
+    "average_review_rating": "3.8",
+    "has_discount": true,
+    "product_id": 600
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Black",
+    "category": "Clothing",
+    "average_purchase_amount": "73.2",
+    "average_review_rating": "3.5799999999999996",
+    "has_discount": true,
+    "product_id": 601
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Blue",
+    "category": "Clothing",
+    "average_purchase_amount": "54.6",
+    "average_review_rating": "3.66",
+    "has_discount": true,
+    "product_id": 602
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Brown",
+    "category": "Clothing",
+    "average_purchase_amount": "57.25",
+    "average_review_rating": "3.8249999999999997",
+    "has_discount": true,
+    "product_id": 603
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Charcoal",
+    "category": "Clothing",
+    "average_purchase_amount": "68.6",
+    "average_review_rating": "3.88",
+    "has_discount": true,
+    "product_id": 604
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Cyan",
+    "category": "Clothing",
+    "average_purchase_amount": "61.666666666666664",
+    "average_review_rating": "3.8666666666666667",
+    "has_discount": true,
+    "product_id": 605
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Gold",
+    "category": "Clothing",
+    "average_purchase_amount": "46.0",
+    "average_review_rating": "4.233333333333333",
+    "has_discount": true,
+    "product_id": 606
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Gray",
+    "category": "Clothing",
+    "average_purchase_amount": "69.14285714285714",
+    "average_review_rating": "3.2285714285714286",
+    "has_discount": true,
+    "product_id": 607
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Green",
+    "category": "Clothing",
+    "average_purchase_amount": "71.5",
+    "average_review_rating": "3.75",
+    "has_discount": true,
+    "product_id": 608
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Indigo",
+    "category": "Clothing",
+    "average_purchase_amount": "57.57142857142857",
+    "average_review_rating": "3.9857142857142853",
+    "has_discount": true,
+    "product_id": 609
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Lavender",
+    "category": "Clothing",
+    "average_purchase_amount": "61.857142857142854",
+    "average_review_rating": "4.0",
+    "has_discount": true,
+    "product_id": 610
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Magenta",
+    "category": "Clothing",
+    "average_purchase_amount": "66.85714285714286",
+    "average_review_rating": "3.7285714285714286",
+    "has_discount": true,
+    "product_id": 611
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Maroon",
+    "category": "Clothing",
+    "average_purchase_amount": "60.0",
+    "average_review_rating": "3.822222222222222",
+    "has_discount": true,
+    "product_id": 612
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Olive",
+    "category": "Clothing",
+    "average_purchase_amount": "69.0",
+    "average_review_rating": "3.4166666666666665",
+    "has_discount": true,
+    "product_id": 613
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Orange",
+    "category": "Clothing",
+    "average_purchase_amount": "68.55555555555556",
+    "average_review_rating": "3.988888888888889",
+    "has_discount": true,
+    "product_id": 614
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Peach",
+    "category": "Clothing",
+    "average_purchase_amount": "76.0",
+    "average_review_rating": "3.35",
+    "has_discount": true,
+    "product_id": 615
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Pink",
+    "category": "Clothing",
+    "average_purchase_amount": "64.16666666666667",
+    "average_review_rating": "4.05",
+    "has_discount": true,
+    "product_id": 616
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Purple",
+    "category": "Clothing",
+    "average_purchase_amount": "65.57142857142857",
+    "average_review_rating": "4.114285714285714",
+    "has_discount": true,
+    "product_id": 617
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Red",
+    "category": "Clothing",
+    "average_purchase_amount": "71.57142857142857",
+    "average_review_rating": "3.6",
+    "has_discount": true,
+    "product_id": 618
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Silver",
+    "category": "Clothing",
+    "average_purchase_amount": "55.857142857142854",
+    "average_review_rating": "3.8000000000000003",
+    "has_discount": true,
+    "product_id": 619
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Teal",
+    "category": "Clothing",
+    "average_purchase_amount": "79.0",
+    "average_review_rating": "4.2",
+    "has_discount": true,
+    "product_id": 620
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Turquoise",
+    "category": "Clothing",
+    "average_purchase_amount": "62.6",
+    "average_review_rating": "3.7600000000000002",
+    "has_discount": true,
+    "product_id": 621
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Violet",
+    "category": "Clothing",
+    "average_purchase_amount": "59.18181818181818",
+    "average_review_rating": "3.5727272727272723",
+    "has_discount": true,
+    "product_id": 622
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "White",
+    "category": "Clothing",
+    "average_purchase_amount": "51.625",
+    "average_review_rating": "3.975",
+    "has_discount": true,
+    "product_id": 623
+  },
+  {
+    "item_purchased": "T-shirt",
+    "color": "Yellow",
+    "category": "Clothing",
+    "average_purchase_amount": "57.625",
+    "average_review_rating": "3.7125",
+    "has_discount": true,
+    "product_id": 624
+  }
+]
