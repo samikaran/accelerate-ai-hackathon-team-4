@@ -3,6 +3,13 @@
 import React, { useEffect, useState } from "react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
   BarChart,
   Bar,
   XAxis,
@@ -17,37 +24,98 @@ import {
   LineChart,
   Line,
 } from "recharts";
-import { DollarSign, Users, TrendingUp } from "lucide-react";
+import { DollarSign, Users, TrendingUp, ShoppingCart } from "lucide-react";
 
-interface MetricCardProps {
-  title: string;
-  value: string;
-  icon: React.ReactNode;
-  colorClass: string;
-}
+const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
 
-const MetricCard: React.FC<MetricCardProps> = ({
-  title,
-  value,
-  icon,
-  colorClass,
-}) => (
-  <Card>
-    <CardContent className="pt-6">
-      <div className="flex justify-between items-center">
-        <div>
-          <p className="text-sm text-gray-500">{title}</p>
-          <p className="text-2xl font-bold">{value}</p>
-        </div>
-        <div className={colorClass}>{icon}</div>
-      </div>
-    </CardContent>
-  </Card>
-);
+// Utility Functions
+const calculateAverage = (array: any[], key: string): number => {
+  if (!array.length) return 0;
+  const sum = array.reduce(
+    (acc, curr) => acc + (parseFloat(curr[key]) || 0),
+    0
+  );
+  return sum / array.length;
+};
+
+const getMetrics = (data: any) => {
+  // Calculate average purchase amount using total_purchase_amount from customerData
+  const avgPurchase =
+    data.customerData.reduce(
+      (acc: number, curr: any) =>
+        acc + (parseFloat(curr.total_purchase_amount) || 0),
+      0
+    ) / data.customerData.length;
+
+  const totalCustomers = data.customerData.length;
+  const avgRating =
+    data.customerData.reduce(
+      (acc: number, curr: any) =>
+        acc + (parseFloat(curr.average_review_rating) || 0),
+      0
+    ) / totalCustomers;
+  const totalOrders = data.customerData.reduce(
+    (acc: number, curr: any) => acc + (parseInt(curr.total_purchases) || 0),
+    0
+  );
+
+  return [
+    {
+      title: "Average Purchase",
+      value: `$${avgPurchase.toFixed(2)}`,
+      icon: <DollarSign />,
+      colorClass: "text-blue-500",
+    },
+    {
+      title: "Total Customers",
+      value: totalCustomers.toString(),
+      icon: <Users />,
+      colorClass: "text-green-500",
+    },
+    {
+      title: "Average Rating",
+      value: avgRating.toFixed(1),
+      icon: <TrendingUp />,
+      colorClass: "text-purple-500",
+    },
+    {
+      title: "Total Orders",
+      value: totalOrders.toString(),
+      icon: <ShoppingCart />,
+      colorClass: "text-orange-500",
+    },
+  ];
+};
+
+const getCategoryAnalysis = (data: any) => {
+  const analysis = data.productData.reduce((acc: any, curr: any) => {
+    if (!acc[curr.category]) {
+      acc[curr.category] = {
+        category: curr.category,
+        count: 0,
+        totalAmount: 0,
+        totalRating: 0,
+      };
+    }
+    acc[curr.category].count += 1;
+    acc[curr.category].totalAmount +=
+      parseFloat(curr.average_purchase_amount) || 0;
+    acc[curr.category].totalRating +=
+      parseFloat(curr.average_review_rating) || 0;
+    return acc;
+  }, {});
+
+  return Object.entries(analysis).map(([category, data]: [string, any]) => ({
+    category,
+    count: data.count,
+    avgAmount: (data.totalAmount / data.count).toFixed(2),
+    avgRating: (data.totalRating / data.count).toFixed(1),
+  }));
+};
 
 const getGeographicalDistribution = (customers: any[]) => {
-  const distribution = customers.reduce((acc: any, customer: any) => {
-    acc[customer.location] = (acc[customer.location] || 0) + 1;
+  const distribution = customers.reduce((acc: any, curr: any) => {
+    acc[curr.location] = (acc[curr.location] || 0) + 1;
     return acc;
   }, {});
 
@@ -57,39 +125,75 @@ const getGeographicalDistribution = (customers: any[]) => {
       customers: count,
     }))
     .sort((a: any, b: any) => b.customers - a.customers)
-    .slice(0, 10); // Top 10 states
+    .slice(0, 10);
 };
 
 const getColorPreferences = (customers: any[]) => {
-  const preferences = customers.reduce((acc: any, customer: any) => {
-    acc[customer.preferred_color] = (acc[customer.preferred_color] || 0) + 1;
+  const preferences = customers.reduce((acc: any, curr: any) => {
+    acc[curr.preferred_color] = (acc[curr.preferred_color] || 0) + 1;
     return acc;
   }, {});
 
   return Object.entries(preferences)
     .map(([color, count]) => ({
       color,
-      customers: count,
+      count,
     }))
-    .sort((a: any, b: any) => b.customers - a.customers);
+    .sort((a: any, b: any) => b.count - a.count);
 };
 
 const getSizeDistribution = (customers: any[]) => {
-  const distribution = customers.reduce((acc: any, customer: any) => {
-    acc[customer.preferred_size] = (acc[customer.preferred_size] || 0) + 1;
+  const sizes = customers.reduce((acc: any, curr: any) => {
+    acc[curr.preferred_size] = (acc[curr.preferred_size] || 0) + 1;
     return acc;
   }, {});
 
-  return Object.entries(distribution).map(([size, value]) => ({
-    size,
+  return Object.entries(sizes).map(([name, value]) => ({
+    name,
     value,
   }));
 };
 
+const getPaymentMethodDistribution = (customers: any[]) => {
+  const methods = customers.reduce((acc: any, curr: any) => {
+    acc[curr.preferred_payment_method] =
+      (acc[curr.preferred_payment_method] || 0) + 1;
+    return acc;
+  }, {});
+
+  return Object.entries(methods).map(([name, value]) => ({
+    name,
+    value,
+  }));
+};
+
+const getDemographics = (customers: any[]) => {
+  const ages = {
+    "18-25": 0,
+    "26-35": 0,
+    "36-45": 0,
+    "46-55": 0,
+    "55+": 0,
+  };
+
+  customers.forEach((customer) => {
+    const age = customer.age;
+    if (age <= 25) ages["18-25"]++;
+    else if (age <= 35) ages["26-35"]++;
+    else if (age <= 45) ages["36-45"]++;
+    else if (age <= 55) ages["46-55"]++;
+    else ages["55+"]++;
+  });
+
+  return Object.entries(ages).map(([range, count]) => ({
+    range,
+    count,
+  }));
+};
+
 const getShippingPreferences = (customers: any[]) => {
-  const preferences = customers.reduce((acc: any, customer: any) => {
-    acc[customer.preferred_shipping] =
-      (acc[customer.preferred_shipping] || 0) + 1;
+  const preferences = customers.reduce((acc: any, curr: any) => {
+    acc[curr.preferred_shipping] = (acc[curr.preferred_shipping] || 0) + 1;
     return acc;
   }, {});
 
@@ -99,33 +203,9 @@ const getShippingPreferences = (customers: any[]) => {
   }));
 };
 
-const getAgeDistribution = (customers: any[]) => {
-  const ranges = {
-    "18-25": 0,
-    "26-35": 0,
-    "36-45": 0,
-    "46-55": 0,
-    "56+": 0,
-  };
-
-  customers.forEach((customer) => {
-    const age = customer.age;
-    if (age <= 25) ranges["18-25"]++;
-    else if (age <= 35) ranges["26-35"]++;
-    else if (age <= 45) ranges["36-45"]++;
-    else if (age <= 55) ranges["46-55"]++;
-    else ranges["56+"]++;
-  });
-
-  return Object.entries(ranges).map(([range, customers]) => ({
-    range,
-    customers,
-  }));
-};
-
 const getGenderDistribution = (customers: any[]) => {
-  const distribution = customers.reduce((acc: any, customer: any) => {
-    acc[customer.gender] = (acc[customer.gender] || 0) + 1;
+  const distribution = customers.reduce((acc: any, curr: any) => {
+    acc[curr.gender] = (acc[curr.gender] || 0) + 1;
     return acc;
   }, {});
 
@@ -137,22 +217,17 @@ const getGenderDistribution = (customers: any[]) => {
 
 const CostAnalytics: React.FC = () => {
   const [data, setData] = useState<any>(null);
+  const [selectedCluster, setSelectedCluster] = useState<string>("all");
   const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        setIsLoading(true);
         const response = await fetch("/api/data");
-        if (!response.ok) {
-          throw new Error("Failed to fetch data");
-        }
         const result = await response.json();
-        console.log("Fetched Data:", result);
         setData(result);
-      } catch (err) {
-        setError(err instanceof Error ? err.message : "An error occurred");
+      } catch (error) {
+        console.error("Error fetching data:", error);
       } finally {
         setIsLoading(false);
       }
@@ -161,95 +236,81 @@ const CostAnalytics: React.FC = () => {
     fetchData();
   }, []);
 
+  const getFilteredData = () => {
+    if (!data) return null;
+
+    if (selectedCluster === "all") {
+      return {
+        customerData: [
+          ...data.clusters.cluster0,
+          ...data.clusters.cluster1,
+          ...data.clusters.cluster2,
+          ...data.clusters.cluster3,
+          ...data.clusters.cluster4,
+        ],
+        productData: data.productData,
+        transactionData: data.transactionData,
+      };
+    }
+
+    return {
+      customerData: data.clusters[selectedCluster],
+      productData: data.productData,
+      transactionData: data.transactionData,
+    };
+  };
+
   if (isLoading)
     return (
       <div className="flex items-center justify-center min-h-screen">
         Loading...
       </div>
     );
-  if (error) return <div className="text-red-500">Error: {error}</div>;
-  if (!data) return <div>No data available</div>;
+  if (!data)
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        No data available
+      </div>
+    );
 
-  const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
-
-  // Calculate metrics
-  const calculateAveragePurchase = () => {
-    try {
-      const amounts = data.transactionData
-        .map((t: any) =>
-          parseFloat(t.purchase_amount || t["purchase_amount_(usd)"])
-        )
-        .filter((amount: number) => !isNaN(amount));
-
-      return (
-        amounts.reduce((a: number, b: number) => a + b, 0) / amounts.length
-      ).toFixed(2);
-    } catch (err) {
-      console.error("Error calculating average purchase:", err);
-      return "0.00";
-    }
-  };
-
-  const metrics = [
-    {
-      title: "Average Purchase",
-      value: `$${calculateAveragePurchase()}`,
-      icon: <DollarSign />,
-      colorClass: "text-blue-500",
-    },
-    {
-      title: "Total Customers",
-      value: data.customerData.length.toString(),
-      icon: <Users />,
-      colorClass: "text-green-500",
-    },
-    {
-      title: "Avg Rating",
-      value: (
-        data.transactionData.reduce(
-          (acc: number, curr: any) => acc + parseFloat(curr.review_rating),
-          0
-        ) / data.transactionData.length
-      ).toFixed(1),
-      icon: <TrendingUp />,
-      colorClass: "text-purple-500",
-    },
-  ];
-
-  // Prepare visualization data
-  const categoryData = Object.entries(
-    data.productData.reduce((acc: any, curr: any) => {
-      if (!acc[curr.category]) {
-        acc[curr.category] = { count: 0, totalAmount: 0 };
-      }
-      acc[curr.category].count += 1;
-      acc[curr.category].totalAmount += parseFloat(
-        curr.average_purchase_amount
-      );
-      return acc;
-    }, {})
-  ).map(([category, values]: [string, any]) => ({
-    category,
-    averageAmount: values.totalAmount / values.count,
-    count: values.count,
-  }));
-
-  const paymentData = Object.entries(
-    data.transactionData.reduce((acc: any, curr: any) => {
-      acc[curr.payment_method] = (acc[curr.payment_method] || 0) + 1;
-      return acc;
-    }, {})
-  ).map(([method, count]: [string, number]) => ({
-    name: method,
-    value: count,
-  }));
+  const filteredData = getFilteredData();
+  if (!filteredData) return null;
 
   return (
     <div className="space-y-6 p-6">
-      {/* Metrics */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {metrics.map((metric, index) => (
-          <MetricCard key={index} {...metric} />
+      {/* Top Section */}
+      <div className="flex justify-between items-center">
+        <h1 className="text-2xl font-bold">Customer Analytics Dashboard</h1>
+        <div className="w-[200px]">
+          <Select value={selectedCluster} onValueChange={setSelectedCluster}>
+            <SelectTrigger>
+              <SelectValue placeholder="Select Cluster" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">All Audience</SelectItem>
+              <SelectItem value="cluster1">Audience Group 1</SelectItem>
+              <SelectItem value="cluster2">Audience Group 2</SelectItem>
+              <SelectItem value="cluster3">Audience Group 3</SelectItem>
+              <SelectItem value="cluster4">Audience Group 4</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+      </div>
+
+      {/* Metrics Overview */}
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+        {getMetrics(filteredData).map((metric, index) => (
+          <Card key={index}>
+            <CardContent className="pt-6">
+              <div className="flex justify-between items-center">
+                <div>
+                  <p className="text-sm text-gray-500">{metric.title}</p>
+                  <p className="text-2xl font-bold">{metric.value}</p>
+                </div>
+                <div className={metric.colorClass}>{metric.icon}</div>
+              </div>
+            </CardContent>
+          </Card>
         ))}
       </div>
 
@@ -261,237 +322,220 @@ const CostAnalytics: React.FC = () => {
         <CardContent>
           <div className="h-[400px]">
             <ResponsiveContainer>
-              <BarChart data={categoryData}>
+              <BarChart data={getCategoryAnalysis(filteredData)}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="category" />
-                <YAxis yAxisId="left" orientation="left" />
+                <YAxis yAxisId="left" />
                 <YAxis yAxisId="right" orientation="right" />
                 <Tooltip />
                 <Legend />
                 <Bar
                   yAxisId="left"
-                  dataKey="averageAmount"
-                  name="Average Amount ($)"
+                  dataKey="count"
                   fill="#8884d8"
+                  name="Number of Items"
                 />
                 <Bar
                   yAxisId="right"
-                  dataKey="count"
-                  name="Number of Items"
+                  dataKey="avgAmount"
                   fill="#82ca9d"
-                />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-        </CardContent>
-      </Card>
-
-      {/* Payment Methods */}
-      <Card>
-        <CardHeader>
-          <CardTitle>Payment Methods Distribution</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="h-[400px]">
-            <ResponsiveContainer>
-              <PieChart>
-                <Pie
-                  data={paymentData}
-                  cx="50%"
-                  cy="50%"
-                  labelLine={false}
-                  innerRadius={60}
-                  outerRadius={80}
-                  fill="#8884d8"
-                  dataKey="value"
-                  label={({ percent }) => `${(percent * 100).toFixed(0)}%`}
-                >
-                  {paymentData.map((entry, index) => (
-                    <Cell
-                      key={`cell-${index}`}
-                      fill={COLORS[index % COLORS.length]}
-                    />
-                  ))}
-                </Pie>
-                <Tooltip />
-                <Legend />
-              </PieChart>
-            </ResponsiveContainer>
-          </div>
-        </CardContent>
-      </Card>
-
-      {/* Purchase Trends */}
-      <Card>
-        <CardHeader>
-          <CardTitle>Purchase Trends by Category</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="h-[400px]">
-            <ResponsiveContainer>
-              <LineChart data={categoryData}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="category" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Line
-                  type="monotone"
-                  dataKey="averageAmount"
-                  stroke="#8884d8"
                   name="Average Amount ($)"
                 />
-              </LineChart>
-            </ResponsiveContainer>
-          </div>
-        </CardContent>
-      </Card>
-
-      {/* Geographical Distribution */}
-      <Card>
-        <CardHeader>
-          <CardTitle>Customer Geographical Distribution</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="h-[400px]">
-            <ResponsiveContainer>
-              <BarChart data={getGeographicalDistribution(data.customerData)}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="state" />
-                <YAxis />
-                <Tooltip />
-                <Bar
-                  dataKey="customers"
-                  fill="#8884d8"
-                  name="Number of Customers"
-                />
               </BarChart>
             </ResponsiveContainer>
           </div>
         </CardContent>
       </Card>
 
-      {/* Color Preferences */}
-      <Card>
-        <CardHeader>
-          <CardTitle>Preferred Colors Distribution</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="h-[400px]">
-            <ResponsiveContainer>
-              <BarChart data={getColorPreferences(data.customerData)}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="color" />
-                <YAxis />
-                <Tooltip />
-                <Bar
-                  dataKey="customers"
-                  fill="#8884d8"
-                  name="Number of Customers"
-                />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-        </CardContent>
-      </Card>
-
-      {/* Size Distribution */}
-      <Card>
-        <CardHeader>
-          <CardTitle>Size Preferences Distribution</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="h-[400px]">
-            <ResponsiveContainer>
-              <PieChart>
-                <Pie
-                  data={getSizeDistribution(data.customerData)}
-                  cx="50%"
-                  cy="50%"
-                  labelLine={false}
-                  innerRadius={60}
-                  outerRadius={80}
-                  fill="#8884d8"
-                  dataKey="value"
-                  label={({ percent }) => `${(percent * 100).toFixed(0)}%`}
+      {/* Geographical Distribution and Demographics */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <Card>
+          <CardHeader>
+            <CardTitle>Geographical Distribution</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="h-[400px]">
+              <ResponsiveContainer>
+                <BarChart
+                  data={getGeographicalDistribution(filteredData.customerData)}
                 >
-                  {getSizeDistribution(data.customerData).map(
-                    (entry, index) => (
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis dataKey="state" />
+                  <YAxis />
+                  <Tooltip />
+                  <Bar
+                    dataKey="customers"
+                    fill="#8884d8"
+                    name="Number of Customers"
+                  />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Age Demographics</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="h-[400px]">
+              <ResponsiveContainer>
+                <BarChart data={getDemographics(filteredData.customerData)}>
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis dataKey="range" />
+                  <YAxis />
+                  <Tooltip />
+                  <Bar
+                    dataKey="count"
+                    fill="#8884d8"
+                    name="Number of Customers"
+                  />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* Color and Size Preferences */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <Card>
+          <CardHeader>
+            <CardTitle>Color Preferences</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="h-[400px]">
+              <ResponsiveContainer>
+                <BarChart data={getColorPreferences(filteredData.customerData)}>
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis dataKey="color" />
+                  <YAxis />
+                  <Tooltip />
+                  <Bar
+                    dataKey="count"
+                    fill="#8884d8"
+                    name="Number of Customers"
+                  />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Size Distribution</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="h-[400px]">
+              <ResponsiveContainer>
+                <PieChart>
+                  <Pie
+                    data={getSizeDistribution(filteredData.customerData)}
+                    cx="50%"
+                    cy="50%"
+                    labelLine={false}
+                    innerRadius={60}
+                    outerRadius={80}
+                    fill="#8884d8"
+                    dataKey="value"
+                    label={({ percent }) => `${(percent * 100).toFixed(0)}%`}
+                  >
+                    {getSizeDistribution(filteredData.customerData).map(
+                      (entry, index) => (
+                        <Cell
+                          key={`cell-${index}`}
+                          fill={COLORS[index % COLORS.length]}
+                        />
+                      )
+                    )}
+                  </Pie>
+                  <Tooltip />
+                  <Legend />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* Payment and Shipping Preferences */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <Card>
+          <CardHeader>
+            <CardTitle>Payment Methods</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="h-[400px]">
+              <ResponsiveContainer>
+                <PieChart>
+                  <Pie
+                    data={getPaymentMethodDistribution(
+                      filteredData.customerData
+                    )}
+                    cx="50%"
+                    cy="50%"
+                    labelLine={false}
+                    innerRadius={60}
+                    outerRadius={80}
+                    fill="#8884d8"
+                    dataKey="value"
+                    label={({ percent }) => `${(percent * 100).toFixed(0)}%`}
+                  >
+                    {getPaymentMethodDistribution(
+                      filteredData.customerData
+                    ).map((entry, index) => (
                       <Cell
                         key={`cell-${index}`}
                         fill={COLORS[index % COLORS.length]}
                       />
-                    )
-                  )}
-                </Pie>
-                <Tooltip />
-                <Legend />
-              </PieChart>
-            </ResponsiveContainer>
-          </div>
-        </CardContent>
-      </Card>
+                    ))}
+                  </Pie>
+                  <Tooltip />
+                  <Legend />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
+          </CardContent>
+        </Card>
 
-      {/* Shipping Preferences */}
-      <Card>
-        <CardHeader>
-          <CardTitle>Shipping Method Distribution</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="h-[400px]">
-            <ResponsiveContainer>
-              <PieChart>
-                <Pie
-                  data={getShippingPreferences(data.customerData)}
-                  cx="50%"
-                  cy="50%"
-                  labelLine={false}
-                  innerRadius={60}
-                  outerRadius={80}
-                  fill="#8884d8"
-                  dataKey="value"
-                  label={({ percent }) => `${(percent * 100).toFixed(0)}%`}
-                >
-                  {getShippingPreferences(data.customerData).map(
-                    (entry, index) => (
-                      <Cell
-                        key={`cell-${index}`}
-                        fill={COLORS[index % COLORS.length]}
-                      />
-                    )
-                  )}
-                </Pie>
-                <Tooltip />
-                <Legend />
-              </PieChart>
-            </ResponsiveContainer>
-          </div>
-        </CardContent>
-      </Card>
-
-      {/* Age Distribution */}
-      <Card>
-        <CardHeader>
-          <CardTitle>Customer Age Distribution</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="h-[400px]">
-            <ResponsiveContainer>
-              <BarChart data={getAgeDistribution(data.customerData)}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="range" />
-                <YAxis />
-                <Tooltip />
-                <Bar
-                  dataKey="customers"
-                  fill="#8884d8"
-                  name="Number of Customers"
-                />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-        </CardContent>
-      </Card>
+        <Card>
+          <CardHeader>
+            <CardTitle>Shipping Preferences</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="h-[400px]">
+              <ResponsiveContainer>
+                <PieChart>
+                  <Pie
+                    data={getShippingPreferences(filteredData.customerData)}
+                    cx="50%"
+                    cy="50%"
+                    labelLine={false}
+                    innerRadius={60}
+                    outerRadius={80}
+                    fill="#8884d8"
+                    dataKey="value"
+                    label={({ percent }) => `${(percent * 100).toFixed(0)}%`}
+                  >
+                    {getShippingPreferences(filteredData.customerData).map(
+                      (entry, index) => (
+                        <Cell
+                          key={`cell-${index}`}
+                          fill={COLORS[index % COLORS.length]}
+                        />
+                      )
+                    )}
+                  </Pie>
+                  <Tooltip />
+                  <Legend />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
 
       {/* Gender Distribution */}
       <Card>
@@ -503,7 +547,7 @@ const CostAnalytics: React.FC = () => {
             <ResponsiveContainer>
               <PieChart>
                 <Pie
-                  data={getGenderDistribution(data.customerData)}
+                  data={getGenderDistribution(filteredData.customerData)}
                   cx="50%"
                   cy="50%"
                   labelLine={false}
@@ -513,7 +557,7 @@ const CostAnalytics: React.FC = () => {
                   dataKey="value"
                   label={({ percent }) => `${(percent * 100).toFixed(0)}%`}
                 >
-                  {getGenderDistribution(data.customerData).map(
+                  {getGenderDistribution(filteredData.customerData).map(
                     (entry, index) => (
                       <Cell
                         key={`cell-${index}`}
@@ -529,6 +573,111 @@ const CostAnalytics: React.FC = () => {
           </div>
         </CardContent>
       </Card>
+
+      {/* Summary Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <Card>
+          <CardHeader>
+            <CardTitle>Key Insights</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-4">
+              <div className="p-3 bg-gray-50 rounded-lg">
+                <p className="font-medium">Most Popular Payment Method</p>
+                <p className="text-sm text-gray-600">
+                  {
+                    Object.entries(
+                      filteredData.customerData.reduce(
+                        (acc: any, curr: any) => {
+                          acc[curr.preferred_payment_method] =
+                            (acc[curr.preferred_payment_method] || 0) + 1;
+                          return acc;
+                        },
+                        {}
+                      )
+                    ).sort(([, a]: any, [, b]: any) => b - a)[0][0]
+                  }
+                </p>
+              </div>
+              <div className="p-3 bg-gray-50 rounded-lg">
+                <p className="font-medium">Preferred Shipping Method</p>
+                <p className="text-sm text-gray-600">
+                  {
+                    Object.entries(
+                      filteredData.customerData.reduce(
+                        (acc: any, curr: any) => {
+                          acc[curr.preferred_shipping] =
+                            (acc[curr.preferred_shipping] || 0) + 1;
+                          return acc;
+                        },
+                        {}
+                      )
+                    ).sort(([, a]: any, [, b]: any) => b - a)[0][0]
+                  }
+                </p>
+              </div>
+              <div className="p-3 bg-gray-50 rounded-lg">
+                <p className="font-medium">Most Common Size</p>
+                <p className="text-sm text-gray-600">
+                  {
+                    Object.entries(
+                      filteredData.customerData.reduce(
+                        (acc: any, curr: any) => {
+                          acc[curr.preferred_size] =
+                            (acc[curr.preferred_size] || 0) + 1;
+                          return acc;
+                        },
+                        {}
+                      )
+                    ).sort(([, a]: any, [, b]: any) => b - a)[0][0]
+                  }
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Customer Base Analysis</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-4">
+              <div className="p-3 bg-gray-50 rounded-lg">
+                <p className="font-medium">Total Customers</p>
+                <p className="text-sm text-gray-600">
+                  {filteredData.customerData.length}
+                </p>
+              </div>
+              <div className="p-3 bg-gray-50 rounded-lg">
+                <p className="font-medium">Average Age</p>
+                <p className="text-sm text-gray-600">
+                  {(
+                    filteredData.customerData.reduce(
+                      (acc: number, curr: any) => acc + curr.age,
+                      0
+                    ) / filteredData.customerData.length
+                  ).toFixed(1)}{" "}
+                  years
+                </p>
+              </div>
+              <div className="p-3 bg-gray-50 rounded-lg">
+                <p className="font-medium">Subscription Rate</p>
+                <p className="text-sm text-gray-600">
+                  {(
+                    (filteredData.customerData.filter(
+                      (c: any) => c.is_subscriber
+                    ).length /
+                      filteredData.customerData.length) *
+                    100
+                  ).toFixed(1)}
+                  %
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
     </div>
   );
 };
